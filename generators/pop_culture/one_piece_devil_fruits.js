@@ -1,4 +1,6 @@
 function generator$pop_culture$one_piece_devil_fruits(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [
 		["Ame", "Rain"],
 		["Arashi", "Storm"],

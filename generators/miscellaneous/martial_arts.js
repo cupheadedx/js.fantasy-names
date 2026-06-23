@@ -1,4 +1,6 @@
 function generator$miscellaneous$martial_arts() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "b", "d", "g", "h", "l", "m", "n", "ng", "s", "t", "w"];
 	var nm2 = ["a", "e", "i", "o", "u", "aa", "ai", "oa", "oe"];
 	var nm3 = ["b", "gw", "hn", "hl", "ht", "l", "mb", "n", "nt", "nd", "ng", "ngw", "r", "rm", "s"];

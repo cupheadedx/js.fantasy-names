@@ -1,4 +1,6 @@
 function generator$final_fantasy$roegadyns(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [
 		["Abar", "Lone"],
 		["Aerg", "Ambitious"],

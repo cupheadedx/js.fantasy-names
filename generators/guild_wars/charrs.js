@@ -1,4 +1,6 @@
 function generator$guild_wars$charrs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["D", "R", "T", "G", "K", "Al", "As", "V", "W"];
 	var nm2 = ["a", "o", "u", "i", "a", "o", "u", "e", "ar", "or", "ur", "ak", "ok", "uk", "ud", "ad", "od", "y", "yt", "", ""];
 	var nm3 = ["ada", "adda", "addo", "addu", "adna", "adni", "adnu", "ado", "adu", "al", "anda", "ando", "andu", "ara", "arra", "da", "di", "do", "du", "fa", "fo", "fu", "ga", "gai", "gei", "go", "gou", "gu", "la", "laa", "lo", "loo", "lu", "ma", "mo", "mu", "na", "no", "nu", "ol", "ora", "orra", "ra", "ri", "ro", "ru", "ta", "tara", "taro", "tarra", "tarro", "tarru", "taru", "to", "tu", "tura", "turo", "turra", "turro", "turru", "turu", "uda", "udda", "uddo", "uddu", "udo", "udu", "ul", "ura", "urra"];

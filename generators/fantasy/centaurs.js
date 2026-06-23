@@ -1,4 +1,6 @@
 function generator$fantasy$centaurs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["A", "Ar", "Al", "B", "Br", "Bl", "C", "Cr", "Cl", "D", "Dl", "Dr", "E", "Er", "El", "F", "Fl", "G", "Gl", "Gr", "H", "I", "Il", "J", "K", "Kl", "Kr", "L", "M", "N", "O", "Or", "Ol", "P", "Pl", "Ph", "Pr", "R", "S", "Sl", "Str", "T", "Tr", "U", "Ur", "Ul", "V", "Vr", "W", "Wr", "X", "Z"];
 	var nm2 = ["a", "e", "i", "o", "u", "y"];
 	var nm3 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "x", "z"];

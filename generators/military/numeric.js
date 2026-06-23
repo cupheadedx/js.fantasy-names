@@ -1,4 +1,6 @@
 function generator$military$numeric() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Nadazero", "Unaone", "Bissotwo", "Terrathree", "Kartefour", "Pantafive", "Soxisix", "Setteseven", "Oktoeight", "Novenine"];
 
 	var r1 = Math.floor(Math.random() * names.length);

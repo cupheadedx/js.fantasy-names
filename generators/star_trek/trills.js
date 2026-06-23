@@ -1,4 +1,6 @@
 function generator$star_trek$trills(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "b", "c", "d", "g", "gr", "h", "j", "k", "m", "n", "r", "s", "t", "v", "vr", "y"];
 	var nm2 = ["ia", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
 	var nm3 = ["b", "d", "dr", "g", "hj", "j", "l", "m", "mbl", "n", "r", "rv", "rz", "rj"];

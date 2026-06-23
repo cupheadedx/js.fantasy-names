@@ -1,4 +1,6 @@
 function generator$pathfinder$gnomes(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "br", "c", "ch", "d", "dr", "f", "g", "gr", "h", "k", "kr", "n", "p", "q", "r", "shm", "t", "tr", "v", "vr", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ie", "iu", "ou", "ee", "uo", "ua"];
 	var nm3 = ["b", "b", "b", "br", "bn", "ck", "cr", "cd", "dp", "dq", "dw", "k", "k", "k", "kq", "kr", "kw", "l", "l", "l", "ll", "ll", "lm", "lz", "lb", "ld", "m", "m", "m", "mb", "mz", "n", "n", "n", "nn", "nd", "ndr", "ng", "nt", "nz", "nq", "p", "p", "p", "pq", "pr", "r", "r", "r", "rgr", "rn", "rw", "rz", "shm", "sht", "sn", "st", "t", "t", "t", "th", "tq", "tr", "v", "v", "v", "z", "z", "z", "zz", "zn"];

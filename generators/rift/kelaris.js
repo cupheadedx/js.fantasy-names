@@ -1,4 +1,6 @@
 function generator$rift$kelaris(type) {
+	i = Math.floor(Math.random() * 10);
+
 	if (type === 1) {
 		var names1 = ["Ac", "Ad", "Adem", "Adon", "Adr", "Ag", "Agl", "Ail", "Air", "Al", "Alet", "Alex", "Alys", "Am", "An", "Anas", "And", "Ang", "Aph", "Aphr", "Apol", "Ar", "Aret", "Art", "As", "Asp", "Ath", "Bar", "Cal", "Call", "Cas", "Casc", "Cath", "Cel", "Char", "Cher", "Cos", "Cres", "Cyr", "Daphn", "Del", "Delph", "Dem", "Den", "Dian", "Dion", "Dor", "Dorin", "Dun", "Eil", "Elean", "Elen", "Elin", "Eud", "Euph", "Evan", "Evang", "Gel", "Hel", "Hyac", "Hyp", "Ir", "Is", "Isad", "Kal", "Kol", "Lar", "Lyd", "Mar", "Mel", "Nel", "Ner", "Nes", "Nor", "Ol", "Olym", "Oph", "Pan", "Pand", "Phed", "Phil", "Ren", "San", "Sel", "Stel", "Tar", "Ter", "Thel", "Xand", "Xen", "Zan", "Zer"];
 		var names2 = ["acia", "adia", "agia", "aina", "ala", "alia", "anda", "andia", "andra", "ania", "antha", "ara", "arria", "asia", "atha", "atia", "eanor", "ectra", "eda", "eia", "ela", "elia", "elina", "emia", "emona", "emone", "ena", "enia", "ephone", "erine", "erise", "esa", "eta", "etha", "ethea", "etina", "etria", "exis", "ia", "ice", "ida", "ienne", "illa", "ina", "ine", "inthe", "ira", "isia", "isma", "issa", "ite", "itha", "iza", "ocia", "odite", "odora", "omeda", "omena", "ona", "one", "onia", "onne", "ora", "osine", "othea", "othy", "yllis", "yne", "ysa"];

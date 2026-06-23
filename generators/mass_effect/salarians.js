@@ -1,4 +1,6 @@
 function generator$mass_effect$salarians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "", "", "", ""];
 	var names2 = ["a", "e", "o", "i", "u", "ae"];
 	var names3 = ["r", "", ""];

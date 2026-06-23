@@ -1,4 +1,6 @@
 function generator$pathfinder$tians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	/* Tian-Dan - Vietnamese */
 	var nm1 = ["", "", "", "b", "c", "ch", "d", "g", "h", "kh", "l", "m", "ng", "nh", "ph", "q", "s", "th", "t", "tr", "v", "x"];
 	var nm2 = ["a", "ai", "ao", "i", "ia", "ie", "ieu", "o", "oa", "oai", "u", "ua", "ue", "ui", "uo", "uu"];

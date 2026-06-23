@@ -1,4 +1,6 @@
 function generator$diablo$khazras() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "bl", "br", "ch", "cr", "d", "dr", "gh", "gr", "h", "hr", "k", "kr", "l", "m", "mw", "n", "r", "sh", "sk", "sn", "t", "th", "tr"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oa", "ao", "au"];
 	var nm3 = ["br", "d", "dr", "g", "gr", "ggr", "gl", "hg", "hl", "hgr", "lg", "lgh", "ld", "lz", "lb", "lghb", "ll", "lm", "ndr", "nd", "nz", "nr", "r", "rb", "rg", "rd", "rgr", "rt", "rth", "rz", "t", "wd"];

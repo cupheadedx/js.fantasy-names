@@ -1,4 +1,6 @@
 function generator$pathfinder$hobgoblins(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "d", "dr", "f", "g", "gr", "h", "k", "kr", "m", "n", "p", "pr", "r", "s", "t", "z"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["d", "dr", "gl", "gr", "gt", "gh", "kr", "kt", "kh", "kl", "l", "lgr", "lt", "ld", "ldr", "lg", "lb", "lbr", "ll", "r", "rg", "rd", "rt", "rdr", "rgr", "rk", "rl", "th", "tt", "tr", "thr", "vl", "vr", "vt"];

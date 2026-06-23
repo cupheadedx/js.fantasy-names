@@ -1,4 +1,6 @@
 function generator$star_wars$jawas(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "bl", "brr", "ch", "d", "h", "hr", "j", "k", "kl", "kr", "kt", "m", "mn", "n", "nb", "p", "pl", "pr", "r", "rk", "sn", "sq", "t", "th", "tt", "ts", "v", "w", "wr", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "oe", "ee", "ii", "ee", "ia", "ui", "eo"];
 	var nm3 = ["b", "bb", "bl", "bw", "d", "g", "j", "k", "k't", "k'ch", "k'k", "kch", "kk", "kt", "kth", "l", "lh", "lv", "m", "n", "ng", "nz", "pt", "r", "rk", "s", "ss", "t", "th", "thch", "tj", "tk", "tt", "ttj", "z", "zj", "zz"];

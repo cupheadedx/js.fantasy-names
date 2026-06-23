@@ -1,4 +1,6 @@
 function generator$descriptions$shields() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["durable", "forceful", "impressive", "mighty", "powerful", "reinforced", "robust", "solid", "sturdy", "tenacious", "tough"];
 	var nm2 = ["rounded heater shield", "pointed heater shield", "sharp heater shield", "diamond heater shield", "triangular heater shield", "wide oval shield", "long oval shield", "Greek-style shield", "rounded oval shield", "long afro shield", "pointed afro shield", "rounded afro shield", "Roman-style shield", "Norman kite shield", "triangular kite shield", "rounded kite shield", "pointed kite shield", "teardrop kite shield", "agular coffin shield", "rounded coffin shield", "round shield", "square shield", "war-door shield", "Wankel shield"];
 	var nm3 = ["adamantite", "ebonsteel", "hardwood", "iron", "ironbark", "mithril", "steel"];

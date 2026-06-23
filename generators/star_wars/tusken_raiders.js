@@ -1,4 +1,6 @@
 function generator$star_wars$tusken_raiders(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["A'", "Ch'", "Gr'", "H'", "K'", "Q'", "R'", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm2 = ["B", "C", "Ch", "D", "G", "K", "Q", "R", "S", "Sh", "Sl", "T", "Th", "Y", "V", "Z"];
 	var nm3 = ["a", "a", "e", "i", "o", "u", "a", "a", "o", "u", "e", "i", "o", "u", "a", "a", "o", "aa", "ai", "ee"];

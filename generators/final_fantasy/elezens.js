@@ -1,4 +1,6 @@
 function generator$final_fantasy$elezens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["A", "E", "I", "O", "U", "Au", "Eau", "A", "E", "I", "O"];
 	var nm2 = ["b", "d", "f", "j", "l", "m", "n", "p", "r", "s", "t", "v", "z", "br", "dr", "fr", "gr", "str", "tr", "vr", "rr", "fl", "gl", "ll", "pl", "rl", "ch", "ph", "sh", "lb", "ld", "lf", "lm", "ln", "lp", "ls", "lv", "lw"];
 	var nm3 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "Z", "Br", "Dr", "Gr", "Pr", "Tr", "Cl", "Gl", "Sh", "Ph"];

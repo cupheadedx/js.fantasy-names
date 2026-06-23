@@ -1,0 +1,19 @@
+﻿
+
+
+
+function generator$pop_culture$narutoDojutsu(){
+	i = Math.floor(Math.random() * 10);
+
+
+	var nm1 = [["Ōi","Crown"],["Akasu","Reveal"],["Ame","Rain"],["Arashi","Storm"],["Ari","Ant"],["Ashita","Tomorrow"],["Asobiba","Playground"],["Atsuryoku","Pressure"],["Baizō","Double"],["Batsu","Punishment"],["Bochi","Cemetery"],["Boku","Servant"],["Bunkatsu","Division"],["Bunseki","Analysis"],["Byōkin","Virus"],["Chōryoku","Tension"],["Chikara","Energy"],["Chikara","Strength"],["Chinsui","Drunk"],["Chishiki","Knowledge"],["Dōjō","Sympathy"],["Dairiseki","Marble"],["Damasu","Trick"],["Doku","Poison"],["Doku","Venom"],["Eien","Eternity"],["Fuan","Anxiety"],["Fukumen","Veil"],["Fukyū","Timelessness"],["Fumetsu","Immortal"],["Funmyō","Clarity"],["Funtai","Powder"],["Furue","Tremble"],["Fushigi","Wonder"],["Gaman","Perseverance"],["Gin","Silver"],["Gisei","Deceit"],["Gizō","Counterfeit"],["Gun","Army"],["Ha","Blade"],["Hakanai","Transient"],["Hametsu","Ruin"],["Han","Half"],["Hana","Flower"],["Hane","Feather"],["Hansha","Reflection"],["Hari","Needle"],["Hasha","Champion"],["Hebi","Snake"],["Henkō","Change"],["Hensen","Transition"],["Hi","Fire"],["Hibana","Spark"],["Hikari","Light"],["Hikari","Shine"],["Himitsu","Secret"],["Hogo","Protection"],["Hone","Bone"],["Hoshi","Star"],["Hyōshi","Rhythm"],["Indō","Requiem"],["Itami","Pain"],["Jōki","Steam"],["Jūten","Emphasis"],["Jigen","Dimension"],["Jihi","Mercy"],["Jikan","Time"],["Jiko","Self"],["Jishin","Earthquake"],["Jiyū","Freedom"],["Kōgeki","Strike"],["Kōkai","Regret"],["Kōkan","Exchange"],["Kōkishin","Curiosity"],["Kōri","Ice"],["Kōtai","Shift"],["Kōun","Fortune"],["Kaen","Flame"],["Kagami","Mirror"],["Kage","Shadow"],["Kaiketsu","Resolution"],["Kajō","Coil"],["Kakashi","Scarecrow"],["Kako","Past"],["Kakomu","Surround"],["Kakuchō","Expansion"],["Kakumei","Revolution"],["Kamen","Mask"],["Kami","Paper"],["Kaminari","Thunder"],["Kanōsei","Potential"],["Kanashimi","Sorrow"],["Kanzei","Duty"],["Kaori","Scent"],["Kazan","Volcano"],["Kengen","Authority"],["Ketsueki","Blood"],["Kidzuki","Awareness"],["Kikai","Opportunity"],["Kinō","Yesterday"],["Kin","Gold"],["Kinkyū","Emergency"],["Kinmu","Service"],["Kinu","Silk"],["Kinzoku","Metal"],["Kiroku","Record"],["Kokoro","Heart"],["Konran","Chaos"],["Kumo","Spider"],["Kurikaeshi","Repetition"],["Kurikaesu","Repeat"],["Kusari","Chain"],["Kyojin","Giant"],["Masayoshi","Justice"],["Mayonaka","Midnight"],["Meijiru","Command"],["Meirei","Control"],["Meiyo","Honor"],["Mitōshi","Perspective"],["Moyō","Pattern"],["Musubime","Knot"],["Nagare","Flow"],["Nayami","Trouble"],["Neko","Cat"],["Nintai","Patience"],["Nise","False"],["Nogareru","Escape"],["Nuime","Stitch"],["Odoroki","Surprise"],["Okure","Delay"],["Onkyō","Acoustic"],["Osen","Pollution"],["Poketto","Pocket"],["Rōsoku","Candle"],["Sōsaku","Creation"],["Sōseiji","Twin"],["Sōshō","Wound"],["Saibankan","Judge"],["Saidai","Maximum"],["Saisho","Beginning"],["Sanryōkyō","Prism"],["Sekai","World"],["Sekki","Design"],["Sentaku","Selection"],["Shōdō","Impulse"],["Shōgeki","Shock"],["Shōkan","Redemption"],["Shōnin","Witness"],["Shōri","Victory"],["Shindō","Tremor"],["Shinjitsu","Truth"],["Shitsumei","Blindness"],["Shitsumon","Question"],["Shoji","Possession"],["Sokudo","Speed"],["Sonzai","Existence"],["Suimin","Sleep"],["Sumi","Ink"],["Suriru","Thrill"],["Tanin","Stranger"],["Tanjō","Birth"],["Teikō","Resistance"],["Tetsu","Iron"],["Toge","Thorn"],["Tokei","Clock"],["Tsūro","Passage"],["Undō","Motion"],["Wa","Ring"],["Wareme","Split"],["Yūgan","Elegance"],["Yūki","Bravery"],["Yūki","Courage"],["Yami","Darkness"],["Yoru","Night"],["Yuki","Snow"],["Yume","Dream"],["Zandaka","Balance"],["Zangyaku","Brutality"],["Zenchō","Omen"]];
+
+	rnd = Math.random() * nm1.length | 0;
+
+		names = nm1[rnd][0] + "gan (" + nm1[rnd][1] + ")";
+
+		nm1.splice(rnd, 1);
+
+		return names;
+
+}

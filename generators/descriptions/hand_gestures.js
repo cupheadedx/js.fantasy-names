@@ -1,4 +1,6 @@
 function generator$descriptions$hand_gestures() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["area", "city", "country", "district", "empire", "nation", "province", "realm", "region", "remote town", "remote village", "state", "territory", "town", "village"];
 	var nm2 = ["B", "C", "D", "F", "G", "H", "I", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"];
 	var nm3 = ["a", "e", "o", "u"];

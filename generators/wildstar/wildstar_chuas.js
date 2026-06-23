@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_chuas(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "d", "f", "g", "j", "m", "n", "r", "sh", "t", "th", "v", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ao", "oa", "ia", "ee", "ua"];
 	var nm3 = ["br", "bn", "dr", "dh", "dg", "dz", "fr", "ff", "g", "gn", "gg", "gz", "gh", "j", "k", "kn", "kv", "kt", "kv", "kz", "lk", "lv", "lg", "ll", "n", "nn", "nk", "np", "nt", "nv", "m", "mm", "mk", "pp", "rr", "rg", "rsr", "rs", "rt", "rv", "rk", "sk", "ss", "sz", "sn", "sm", "t", "tt", "tk", "v", "vn"];

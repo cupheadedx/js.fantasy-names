@@ -1,4 +1,6 @@
 function generator$miscellaneous$dinosaurs() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [
 		[
 			["Nigri"],

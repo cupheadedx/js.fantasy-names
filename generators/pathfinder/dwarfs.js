@@ -1,4 +1,6 @@
 function generator$pathfinder$dwarfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "d", "dr", "f", "g", "gr", "h", "j", "k", "m", "r", "sr", "st", "str", "t", "tr", "v", "w", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "y", "y", "aa", "ai", "oo", "uu", "io", "io"];
 	var nm3 = ["b", "br", "bm", "bn", "cr", "cd", "cn", "cm", "d", "dd", "dg", "dn", "dm", "g", "gr", "gn", "gm", "gr", "gg", "gd", "k", "kk", "kl", "kn", "l", "ld", "lb", "lbr", "ldr", "lg", "lgr", "lm", "lk", "mg", "md", "n", "nf", "nm", "nth", "ng", "ngr", "ndr", "nr", "r", "rg", "rgr", "rs", "rst", "rd", "rb", "v", "zm", "zb", "zd"];

@@ -1,4 +1,6 @@
 function generator$star_wars$bothans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "b", "c", "d", "g", "gr", "h", "k", "n", "r", "tr", "v", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "aa", "ee", "ai", "ia"];
 	var nm3 = ["b", "br", "c", "ct", "d", "dr", "g", "h", "kr", "k", "m", "nt", "r", "ry", "tr", "v"];

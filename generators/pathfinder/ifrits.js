@@ -1,4 +1,6 @@
 function generator$pathfinder$ifrits(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "d", "g", "j", "k", "m", "n", "r", "t", "v", "z"];
 	var nm2 = ["a", "e", "i", "u"];
 	var nm3 = ["c", "f", "g", "j", "k", "l", "m", "n", "q", "r", "v"];

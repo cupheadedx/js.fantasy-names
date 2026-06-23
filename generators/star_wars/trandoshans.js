@@ -1,4 +1,6 @@
 function generator$star_wars$trandoshans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "", "", "", "b", "bh", "bl", "br", "c", "ch", "cl", "cr", "d", "dh", "dr", "fr", "g", "gh", "gr", "grr", "gwh", "h", "hr", "hss", "j", "k", "khr", "kl", "kr", "l", "m", "mr", "n", "nr", "nrr", "p", "pr", "q", "r", "s", "sh", "sk", "sl", "ss", "ssk", "sstr", "st", "thr", "t", "tr", "tsh", "tss", "v", "vr", "w", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "y", "uu", "ee", "aa", "oo", "ai", "ui", "ey"];
 	var nm3 = ["ch", "cr", "d", "dfr", "dg", "g", "gg", "gr", "hhm", "hs", "k", "khss", "kk", "kr", "ks", "kt", "l", "ld", "lf", "ll", "lt", "m", "mr", "n", "nd", "ng", "nk", "nn", "nt", "nv", "ph", "qz", "r", "rd", "rk", "rn", "rr", "rth", "rtsn", "s", "sd", "sh", "sn", "ss", "sskr", "t", "tl", "tt", "v", "vr", "z", "zzm"];

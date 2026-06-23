@@ -1,4 +1,6 @@
 function generator$star_trek$klingons(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "o", "u", "e"];
 	var nm2 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "ts", "th", "tr", "st", "sh", "gr", "ch", "kr", "kl", "dr"];
 	var nm3 = ["a", "e", "i", "o", "u", "a", "o"];

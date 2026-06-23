@@ -1,4 +1,6 @@
 function generator$warhammer$dwarfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "br", "d", "dr", "g", "gr", "kh", "kr", "m", "n", "r", "s", "sr", "str", "th", "tr", "thr", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "ai", "oa", "ao"];
 	var nm3 = ["d", "g", "k", "l", "r", "th", "d", "g", "k", "l", "r", "th", "br", "d", "dh", "dr", "g", "gr", "gh", "gn", "gm", "gz", "gd", "k", "kr", "l", "lb", "ld", "lg", "lgr", "ldr", "nd", "ng", "nr", "ndr", "ngr", "r", "rd", "rdr", "rg", "rt", "rbr", "rb", "rgr", "th", "tr", "thr"];

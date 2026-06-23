@@ -1,4 +1,6 @@
 function generator$fantasy$animatronics(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [
 		[
 			["Abalone", "Ace the", "Achilles", "Acro the", "Acrobat", "Admiral", "Ajax the", "Alfie", "Alistair", "Alpha", "Ammo the", "Angel", "Anger the", "Apache the", "Apollo the", "Apple", "Aragog the", "Archer the", "Arrow the", "Artemis", "Artic", "Ash the", "Ashes", "Aslan the", "Asterix", "Astro the", "Athene the", "Atlas", "Aura the", "Avalanche", "Avalon the", "Axe the", "Axel the", "Axis the", "Azrael the"],

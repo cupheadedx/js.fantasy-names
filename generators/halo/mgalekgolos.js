@@ -1,4 +1,6 @@
 function generator$halo$mgalekgolos() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "", "", "", "", "", "", "", "", ""];
 	var nm2 = ["a", "e", "u", "i", "o"];
 	var nm3 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y"];

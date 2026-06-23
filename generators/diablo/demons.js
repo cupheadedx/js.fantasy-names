@@ -1,4 +1,6 @@
 function generator$diablo$demons(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "bl", "br", "c", "cr", "ch", "d", "dr", "g", "gr", "gh", "h", "j", "k", "kh", "kr", "l", "m", "n", "p", "pr", "r", "s", "sl", "str", "sthr", "sth", "sr", "t", "th", "tr", "thr", "v", "vr", "wr", "x", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "io", "oi", "aa", "iu", "ia", "ou", "ea", "uu", "au", "ao"];
 	var nm3 = ["b", "bl", "br", "c", "d", "dd", "dr", "g", "gg", "gh", "gn", "gr", "h", "j", "k", "kh", "kr", "kk", "kn", "lf", "lth", "lt", "lm", "lr", "ld", "m", "mm", "n", "ng", "nth", "nd", "nr", "nt", "ph", "phr", "r", "rch", "rp", "rr", "rt", "rzh", "rs", "rz", "rd", "rk", "s", "sh", "ss", "sz", "str", "t", "th", "tr", "thr", "x", "xtr", "xx", "z", "zz"];

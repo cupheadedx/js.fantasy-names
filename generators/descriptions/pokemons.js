@@ -1,4 +1,6 @@
 function generator$descriptions$pokemons() {
+	i = Math.floor(Math.random() * 10);
+
 	var bugSkin = ["bioluminescent", "phosphorescent", "fluorescent", "camouflaged", "dark", "fluff covered", "glowing", "hair covered", "light", "patterned", "thick armored", "thorny", "translucent"];
 	var bugLegs = ["ridged", "armored", "thick, fluffy", "hair covered", "thin, long", "thorn covered", "camouflaged", "small", "powerful"];
 	var bugWings = ["angular", "bioluminescent", "phosphorescent", "fluorescent", "petal-like", "camouflaged", "cloak-like", "dark", "double paired", "giant", "glowing", "light", "patterned", "powerful", "razor sharp", "ribbon-like", "small", "translucent"];

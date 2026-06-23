@@ -1,4 +1,6 @@
 function generator$star_trek$orions(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["D", "G", "H", "J", "L", "M", "N", "Ng", "R", "T", "Th", "V"];
 	var nm2 = ["a", "i", "e", "o", "a", "ai", "ou", "aa", "a", "e", "i", "o"];
 	var nm3 = ["g", "gg", "k", "kk", "l", "ll", "m", "mm", "r", "rr", "sr", "ss", "t", "tt", "yc", "z", "zz"];

@@ -1,4 +1,6 @@
 function generator$descriptions$animals() {
+	i = Math.floor(Math.random() * 10);
+
 	var names0 = [" and rare", " and incredibily rare", " and nearly extinct", ", but common", ", but very common", " and uncommon", " and seldom seen", ", but extremely common", ", but fairly common", ", but often seen"];
 	var names1 = ["adorable", "amazing", "amusing", "astonishing", "beautiful", "bizarre", "captivating", "charming", "clever", "curious", "delightful", "fierce", "funny", "incredible", "lovely", "odd", "special", "strange", "unusual", "weird"];
 	var names2 = ["mammal", "aquatic mammal", "amphibian", "reptile", "fish", "invertebrate", "bird"];

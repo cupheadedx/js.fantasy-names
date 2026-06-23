@@ -1,4 +1,6 @@
 function generator$descriptions$planets(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var tp = type;
 	var planetType = Math.floor((Math.random() * 3) + 1);
 	var lifeType = Math.floor((Math.random() * 4) + 1);

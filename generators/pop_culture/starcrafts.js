@@ -1,4 +1,6 @@
 function generator$pop_culture$starcrafts(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "d", "dh", "f", "g", "gh", "h", "k", "kh", "n", "m", "t", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "io", "ia"];
 	var nm3 = ["d", "g", "m", "n", "r", "t", "d", "g", "m", "n", "r", "t", "d", "g", "m", "n", "r", "t", "d", "dr", "g", "gd", "gr", "ld", "ldr", "m", "n", "nd", "ndr", "r", "rk", "rt", "rx", "rz", "ss", "t", "tr", "tg", "xx", "zr"];

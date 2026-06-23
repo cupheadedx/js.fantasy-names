@@ -1,4 +1,6 @@
 function generator$game_of_thrones$summer_islanders(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Bh", "D", "J", "M", "S", "T", "X", "Xh", "Z", "Zh"];
 	var nm2 = ["a", "o", "a"];
 	var nm3 = ["b", "bh", "dh", "l", "lth", "ll", "lh", "n", "nt", "qu", "r", "rr"];

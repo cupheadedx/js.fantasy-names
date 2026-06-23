@@ -1,4 +1,6 @@
 function generator$warhammer$goblins(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["c", "ch", "cr", "g", "gh", "gr", "gn", "k", "kr", "kn", "r", "sk", "sc", "sm", "sn", "st", "str", "skr", "t", "tr", "z", "zr"];
 	var nm2 = ["a", "i", "o", "a", "i", "o", "a", "i", "o", "e", "u"];
 	var nm3 = ["c", "cc", "cl", "cr", "cn", "gl", "gr", "gn", "gg", "g", "gd", "gdr", "gs", "gt", "gtr", "k", "kk", "kt", "kr", "ktr", "ks", "kz", "kv", "ng", "nz", "nr", "nk", "nkz", "nks", "rc", "rk", "rg", "rgr", "rkr", "rs", "rsn", "rsm", "rz", "rt", "rtr", "rsl", "sn", "str", "sk", "sc", "str", "skr", "sz", "tr", "tkr", "tn", "tv", "vr", "vl"];

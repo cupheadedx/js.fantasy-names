@@ -1,4 +1,6 @@
 function generator$game_of_thrones$mountain_clans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["A", "Agga", "Ara", "Ardo", "Ba", "Bo", "Bra", "Bro", "Da", "Do", "Dra", "Dro", "Ga", "Gro", "Gru", "Gu", "Ho", "Hra", "Hro", "Hu", "Ja", "Jara", "Jo", "Jora", "Ka", "Kra", "Kri", "Kru", "Sha", "Sra", "Sru", "Sta", "Tho", "Ti", "Tra", "Tro", "U", "Uma", "Ura", "Uri"];
 	var names2 = ["dar", "dog", "dor", "drag", "gah", "gga", "ggan", "ggor", "gir", "gra", "kha", "khan", "khar", "kkan", "kor", "laf", "lf", "llag", "log", "lor", "mar", "mhor", "mman", "mor", "nar", "nnag", "nog", "nthor", "rak", "rlag", "rrag", "rras", "tar", "ther", "thor", "ttag", "vas", "vor", "vrak", "vvar"];
 	var names3 = ["Bi", "Bra", "Bre", "Bu", "Cha", "Che", "Cru", "Cwe", "Da", "De", "Dre", "Dri", "Fa", "Fe", "Fra", "Fri", "Ge", "Gi", "Gre", "Gri", "Gwe", "Ma", "Mhe", "Mi", "Pha", "Phu", "Pre", "Pru", "Ra", "Re", "Ri", "Ru", "Sha", "Sre", "Sta", "Ste", "Ta", "Tra", "Tre", "Tri"];

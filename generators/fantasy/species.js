@@ -1,4 +1,6 @@
 function generator$fantasy$species() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "ai", "ea", "eo", "oi", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm2 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "ch", "chr", "chl", "z", "br", "cr", "dr", "fr", "gr", "kr", "pr", "sr", "tr", "str", "bl", "cl", "fl", "kl", "pl", "sl", "vl", "ph", "sh"];
 	var nm3 = ["a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "ai", "ea", "eo", "oi", "y"];

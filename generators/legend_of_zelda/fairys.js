@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$fairys(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "C", "D", "F", "G", "H", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "Z"];
 	var nm2 = ["ea", "ae", "ai", "ao", "aa", "au", "ei", "ee", "ia", "ie", "io", "oo", "oa"];
 	var nm3 = ["f", "k", "l", "m", "n", "r", "s"];

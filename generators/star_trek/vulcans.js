@@ -1,4 +1,6 @@
 function generator$star_trek$vulcans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["Ch", "D", "F", "H", "J", "K", "L", "M", "N", "P", "S", "Sk", "Sp", "St", "Str", "T", "T'K", "V", "V'L", "S", "Sk", "Sp", "St", "Str", "S"];
 	var nm2 = ["aa", "ia", "au", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y"];
 	var nm3 = ["d", "f", "j", "kk", "l", "ll", "lk", "lv", "n", "p", "r", "rr", "s", "str", "ss", "t", "v"];

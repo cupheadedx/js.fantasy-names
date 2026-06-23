@@ -1,4 +1,6 @@
-function generator$towns_and_cities$west_european_towns(type) {﻿ /* Austria */
+function generator$towns_and_cities$west_european_towns(type) {
+	i = Math.floor(Math.random() * 10);
+ /* Austria */
 	var nm1 = ["Alten", "Am", "Ans", "Bischof", "Blu", "Brau", "Dorn", "Eben", "Ebreich", "Eisen", "Fürsten", "Feld", "Frei", "Gänsern", "Göt", "Geras", "Gmun", "Groß", "Hall", "Hard", "Hart", "Holla", "Inns", "Kapfen", "Kirch", "Kitz", "Klagen", "Kloster", "Knittel", "Krneu", "Kuf", "Land", "Len", "Leon", "Lusten", "Möd", "March", "Mau", "Mistel", "Mitter", "Neu", "Neun", "Poys", "Rank", "Saal", "Salz", "Schär", "Siezen", "Stock", "Ter", "Trais", "Tro", "Vólker", "Vöckla", "Völk", "Vil", "Waid", "Wals", "Wolf", "Wolfs", "Zelt"];
 	var nm2 = ["bühel", "bach", "ben", "berg", "birge", "birn", "bruck", "brunn", "deck", "denz", "ding", "dorf", "ein", "feld", "felden", "furt", "haus", "hausen", "heim", "hofen", "kirch", "kirchen", "kreis", "lach", "ling", "markt", "nau", "nitz", "rau", "schlag", "see", "sill", "stadt", "statt", "stein", "tal", "ten", "tetten", "trenk", "weg", "weil", "zell", "zing", "zis"];
 	/* Belgium */

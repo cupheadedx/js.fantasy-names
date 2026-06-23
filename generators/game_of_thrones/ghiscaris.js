@@ -1,4 +1,6 @@
 function generator$game_of_thrones$ghiscaris(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "dr", "g", "gr", "h", "kr", "m", "pr", "q", "r", "sr", "sh", "z", "zh"];
 	var nm2 = ["a", "ei", "i", "o", "e", "a", "e", "i", "o", "a", "a"];
 	var nm3 = ["dn", "d", "gh", "ghd", "gn", "nd", "md", "k", "kh", "kn", "kl", "q", "qh", "qn", "rd", "rn", "rm", "sn", "zd", "zh", "zn", "zm", "zl"];

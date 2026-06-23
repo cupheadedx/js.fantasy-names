@@ -1,4 +1,6 @@
 function generator$star_trek$romulans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "ch", "c", "d", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "th", "v", "vr", "x", "", ""];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["b", "c", "chr", "j", "k", "l", "j", "k", "l", "lm", "ld", "m", "m", "ns", "nd", "ncl", "r", "r", "rr", "t", "t", "v"];

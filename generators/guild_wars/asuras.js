@@ -1,4 +1,6 @@
 function generator$guild_wars$asuras(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "Y", "Z", "Bl", "Br", "Bj", "Dl", "Dr", "Dk", "Dn", "Fl", "Fr", "Fj", "Gr", "Gl", "Gn", "Gh", "Bh", "Dh", "Kr", "Kl", "Kh", "Kj", "Lh", "Mh", "Pr", "Pl", "Pj", "Ph", "Rh", "Qh", "Sl", "Sr", "Sh", "Tr", "Tw", "Sw", "Pw", "Kw", "Dw", "Bw", "Vr", "Vl", "Sn", "Sm", "Zn", "Zm", "Str"];
 	var nm2 = ["a", "e", "o", "i", "u", "ea", "eo", "ia", "io", "ou", "ua", "a", "e", "o", "i", "u"];
 	var nm3 = ["bb", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "xx", "zz", "bb", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "xx", "zz", "b", "d", "f", "g", "k", "l", "m", "n", "p", "r", "s", "t", "x", "z"];

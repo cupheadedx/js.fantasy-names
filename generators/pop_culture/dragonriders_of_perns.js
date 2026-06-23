@@ -1,4 +1,6 @@
 function generator$pop_culture$dragonriders_of_perns(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "c", "f", "g", "gr", "h", "j", "k", "l", "m", "n", "p", "r", "s", "sh", "t", "v", "w", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "y", "y", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ea", "ee", "au", "ai", "ie", "ea", "io"];
 	var nm3 = ["b", "c", "d", "f", "g", "k", "l", "m", "n", "p", "r", "s", "t", "v", "x", "b", "br", "c", "ch", "d", "dr", "f", "fr", "g", "k", "l", "ld", "ll", "lr", "lt", "m", "n", "nc", "nd", "ng", "ngr", "nn", "nr", "ns", "nt", "p", "r", "rbr", "rm", "rn", "rr", "rsh", "rt", "sg", "shm", "ss", "sr", "st", "t", "th", "v", "x"];

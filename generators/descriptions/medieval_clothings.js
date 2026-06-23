@@ -1,4 +1,6 @@
 function generator$descriptions$medieval_clothings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["delicate", "elegant", "fancy", "graceful", "luxurious", "relatively simple", "majestic", "modest", "noble", "ornate", "rather simple", "refined", "stylish", "traditional"];
 	var nm2 = ["Queen Anne neckline", "court neckline", "cowl neckline", "draped neckline", "halter neckline", "jewel neckline", "keyhole neckline", "round neckline", "scoop neckline", "semi-sweethear neckline", "square neckline", "sweetheart neckline", "v-neck"];
 	var nm3 = ["charmingly", "daintily", "delicately", "elegantly", "entrancingly", "gracefully", "graciously", "harmoniously", "lightly", "subtly", "tastefully", "wonderfully"];

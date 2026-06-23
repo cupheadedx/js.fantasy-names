@@ -1,4 +1,6 @@
 function generator$halo$san_shyuums() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "b", "c", "d", "f", "h", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "z"];
 	var nm2 = ["o", "a", "u"];
 	var nm3 = ["b", "c", "d", "g", "k", "p", "t", "rd", "rb", "rc", "rd", "rg", "rk", "rp", "rt"];

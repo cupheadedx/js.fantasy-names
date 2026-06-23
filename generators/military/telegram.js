@@ -1,4 +1,6 @@
 function generator$military$telegram() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Adam", "Boston", "Chicago", "Denver", "Edward", "Frank", "George", "Henry", "Ida", "John", "King", "Lincoln", "Mary", "New York", "Ocean", "Peter", "Queen", "Roger", "Sugar", "Thomas", "Union", "Victor", "William", "Xray", "Young", "Zero"];
 
 	var r1 = Math.floor(Math.random() * names.length);

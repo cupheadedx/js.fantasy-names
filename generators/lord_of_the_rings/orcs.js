@@ -1,4 +1,6 @@
 function generator$lord_of_the_rings$orcs() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "br", "c", "cr", "d", "dr", "g", "gh", "gr", "k", "kr", "l", "m", "r", "s", "sh", "sr"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au"];
 	var nm3 = ["cb", "cd", "cr", "db", "dd", "fd", "fth", "g", "gb", "gd", "gg", "gl", "gr", "gz", "h", "lcm", "ld", "lf", "lg", "rb", "rc", "rd", "rg", "rz", "shn", "thr", "z", "zb", "zg", "zr", "zz"];

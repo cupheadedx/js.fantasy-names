@@ -1,4 +1,6 @@
 function generator$star_wars$dugs() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "d", "g", "gr", "j", "k", "n", "p", "pr", "r", "s", "t", "tr", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ei", "ou", "aa", "ai"];
 	var nm3 = ["b", "br", "bh", "d", "dd", "dw", "g", "gn", "gr", "gw", "gg", "k", "kw", "kh", "ln", "lw", "lg", "lb", "lt", "nr", "nb", "nd", "ng", "ns", "rd", "r", "rg", "rn", "s", "sw", "ss", "w"];

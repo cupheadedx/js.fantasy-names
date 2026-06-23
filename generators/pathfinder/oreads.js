@@ -1,4 +1,6 @@
 function generator$pathfinder$oreads(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "d", "g", "j", "l", "m", "n", "p", "r", "s", "t", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "o", "u", "y"];
 	var nm3 = ["d", "dd", "f", "fd", "ft", "hd", "hn", "hv", "l", "ll", "ln", "lm", "ld", "lv", "lt", "lth", "lm", "m", "md", "mt", "mh", "mv", "n", "nd", "nt", "nv", "nh", "nn", "nm", "nh", "nr", "r", "rt", "rh", "rn", "rm", "rl", "rv", "rr", "rd", "th", "tr", "thr", "v", "vh", "vr"];

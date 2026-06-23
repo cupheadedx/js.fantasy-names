@@ -1,4 +1,6 @@
 function generator$the_witcher$elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "c", "ch", "cr", "d", "f", "g", "h", "m", "r", "s", "t", "v", "vr"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "oi", "au", "ai", "ei", "ae", "ea", "io"];
 	var nm3 = ["b", "bh", "ch", "d", "dr", "h", "l", "m", "md", "ml", "mm", "n", "nd", "ndr", "ng", "ngr", "nl", "nn", "r", "rbr", "rd", "rl", "rn", "rrd", "rv", "s", "v"];

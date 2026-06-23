@@ -1,4 +1,6 @@
 function generator$warhammer$tomb_kings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "ch", "f", "h", "k", "kh", "m", "n", "r", "s", "t", "th"];
 	var nm2 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "a", "e", "o", "i", "i"];
 	var nm3 = ["b", "ch", "f", "h", "k", "kh", "l", "m", "mh", "n", "p", "ph", "r", "s", "sh", "t", "th", "y", "b", "bd", "ch", "ct", "f", "h", "k", "kh", "kht", "kt", "l", "m", "mh", "mkh", "mt", "n", "nkh", "ns", "p", "ph", "phk", "phr", "pht", "pr", "pth", "r", "rkh", "rs", "rt", "s", "sf", "sh", "shk", "skh", "sph", "ss", "st", "t", "th", "tm", "tr", "ttr", "y"];

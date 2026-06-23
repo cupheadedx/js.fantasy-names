@@ -1,4 +1,6 @@
 function generator$miscellaneous$newspapers(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm3 = [
 		["The ", "Bulletin"],
 		["The ", "Chronicle"],

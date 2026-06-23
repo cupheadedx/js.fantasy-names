@@ -1,4 +1,6 @@
 function generator$star_trek$bajorans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "ch", "sh", "br", "pr", "tr", "dr", "kr", "vr", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa", "ee"];
 	var nm3 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "nj", "mj", "nt", "mt", "ct", "kt", "ny", "cy", "gy", "ky", "my", "py", "sy", "ty", "ry", "rm", "rb", "rc", "rd", "rj", "rk", "rm", "rn", "rp", "rs", "rt", "rv", "rw", "rz", "sh", "ch", "th", "ll", "dd", "gg", "kk", "rr", "zk", "sk", "lk", "tk", "tr", "dr"];

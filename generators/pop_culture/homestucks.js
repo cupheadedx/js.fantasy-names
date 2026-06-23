@@ -1,4 +1,6 @@
 function generator$pop_culture$homestucks() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm0 = ["c", "d", "f", "g", "h", "k", "l", "m", "n", "r", "p", "s", "t", "v", "x", "z"];
 	var nm1 = ["cr", "dr", "fr", "gr", "gh", "kh", "kr", "rh", "ph", "pr", "sk", "st", "tr", "vr", "xh", "zh"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa", "ai", "ea", "ee", "eu", "ei", "ia", "ie", "io"];

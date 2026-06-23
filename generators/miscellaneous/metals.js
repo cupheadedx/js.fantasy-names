@@ -1,4 +1,6 @@
 function generator$miscellaneous$metals() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
 	var nm2 = ["a", "e", "o", "u"];
 	var nm3 = ["br", "cr", "dr", "fr", "gr", "pr", "str", "tr", "bl", "cl", "fl", "gl", "pl", "sl", "sc", "sk", "sm", "sn", "sp", "st", "sw", "ch", "sh", "th", "wh", "kr"];

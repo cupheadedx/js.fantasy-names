@@ -1,4 +1,6 @@
 function generator$star_trek$betazoids(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
 	var nm2 = ["b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t"];
 	var nm3 = ["a", "e", "i", "o", "u", "ei", "aa", "oa"];

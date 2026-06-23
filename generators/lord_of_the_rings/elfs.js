@@ -1,4 +1,6 @@
-function generator$lord_of_the_rings$elfs(type) {﻿
+function generator$lord_of_the_rings$elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [
 		["Âr", "Royal/Noble"],
 		["Êg", "Thorn"],

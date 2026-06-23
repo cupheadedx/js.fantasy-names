@@ -1,4 +1,6 @@
 function generator$dungeon_and_dragons$devas(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var namesFem = ["Abea", "Adara", "Asha", "Chana", "Danel", "Darah", "Davi", "Elka", "Eranah", "Hania", "Hava", "Idria", "Isa", "Jael", "Kana", "Kayah", "Lihi", "Mahel", "Marek", "Navah", "Noma", "Paziah", "Ravah", "Riya", "Sada", "Shara", "Tirah"];
 	var namesFemF = ["Ab", "Ad", "An", "Ar", "Ash", "Chan", "Dan", "Dar", "Dav", "Din", "Elk", "Eran", "Eys", "Han", "Hav", "Hen", "Idr", "Is", "Jan", "Jen", "Kal", "Kan", "Kay", "Len", "Lih", "Mah", "Mar", "Nal", "Nav", "Nom", "Paz", "Rav", "Ren", "Riy", "Sad", "Shar", "Sir", "Tar", "Tel", "Tir"];
 	var namesFemL = ["a", "ael", "aen", "ah", "ahne", "ana", "anaeh", "anael", "anah", "ane", "anel", "aniah", "ara", "araeh", "are", "ariah", "ea", "ehl", "ek", "el", "ele", "elle", "era", "ey", "eya", "i", "ia", "iah", "im", "ima"];

@@ -1,4 +1,6 @@
 function generator$star_wars$quarrens() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "c", "ch", "chr", "d", "dh", "f", "fr", "g", "gr", "j", "k", "kr", "l", "m", "n", "nr", "p", "ph", "pw", "q", "r", "s", "sh", "sq", "t", "th", "tr", "ts", "v", "w", "wh", "y", "z"];
 	var nm2 = ["y", "y", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "io", "oe", "ue", "ui", "ua", "ea"];
 	var nm3 = ["b", "bk", "ck", "ct", "d", "dk", "dg", "dl", "dm", "dr", "g", "gg", "gk", "k", "kk", "l", "lb", "lg", "ll", "lm", "lp", "lw", "m", "mt", "n", "ndr", "nt", "p", "pp", "q", "r", "rgl", "rh", "rl", "rr", "rrh", "rth", "rz", "sq", "ss", "ssth", "st", "sth", "w"];

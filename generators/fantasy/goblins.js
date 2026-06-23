@@ -1,4 +1,6 @@
 function generator$fantasy$goblins(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "k", "l", "p", "r", "t", "v", "w", "x", "z", "br", "bl", "cr", "cl", "ch", "dr", "fr", "gr", "gl", "gn", "kr", "kl", "pr", "pl", "str", "st", "sr", "sl", "tr", "vr", "wr", "zr"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "ia", "io", "ee", "aa", "ui", "ie", "ea", "oi"];
 	var nm3 = ["b", "d", "g", "h", "k", "l", "m", "n", "r", "s", "t", "v", "z", "b", "d", "g", "h", "k", "l", "m", "n", "r", "s", "t", "v", "z", "b", "d", "g", "h", "k", "l", "m", "n", "r", "s", "t", "v", "z", "b", "d", "g", "h", "k", "l", "m", "n", "r", "s", "t", "v", "z", "bb", "bd", "bh", "bl", "bk", "bn", "br", "bs", "bt", "bz", "db", "dd", "df", "dh", "dl", "dn", "dr", "ds", "dv", "dz", "", "gg", "gb", "gd", "gh", "gk", "gl", "gm", "gn", "gr", "gs", "gt", "gz", "hd", "hb", "hk", "hn", "hz", "kl", "kn", "kz", "kv", "kk", "lb", "ld", "lg", "lk", "ll", "lr", "ls", "lt", "lv", "lz", "mr", "mv", "mz", "mt", "nr", "nv", "nz", "nt", "rb", "rd", "rg", "rk", "rl", "rm", "rn", "rr", "rs", "rt", "rv", "rz", "sb", "sd", "sh", "sk", "sm", "sn", "sr", "str", "st", "sv", "sz", "ss", "tb", "tl", "tm", "tn", "tr", "tv", "tz", "tt", "vl", "vn", "vr", "vz", "zb", "zd", "zg", "zl", "zm", "zn", "zt"];

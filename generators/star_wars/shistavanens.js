@@ -1,4 +1,6 @@
 function generator$star_wars$shistavanens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "bl", "c", "d", "g", "h", "k", "l", "m", "n", "phl", "r", "s", "t", "v", "y"];
 	var nm2 = ["a", "e", "i", "o", "u", "u", "o", "a", "a", "e", "i", "o", "u", "u", "o", "a", "oo", "aa", "uu"];
 	var nm3 = ["cv", "cd", "dv", "dr", "d", "dd", "gv", "gr", "gg", "g", "gn", "k", "kk", "kv", "kl", "kr", "kt", "kd", "lv", "lr", "mr", "mv", "nv", "nr", "nd", "ndr", "nst", "r", "rd", "rt", "vr", "v", "vr", "vg", "vgr", "vd"];

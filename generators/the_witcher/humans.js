@@ -1,4 +1,6 @@
 function generator$the_witcher$humans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "c", "ch", "d", "dr", "f", "gr", "g", "h", "k", "kr", "l", "m", "n", "r", "s", "st", "str", "t", "th", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ui", "ea", "ei", "ie", "ai", "ua", "ei", "eo", "ia", "aa", "ee"];
 	var nm3 = ["b", "b", "br", "bl", "cl", "c", "c", "cr", "d", "d", "dl", "dr", "g", "g", "gr", "gn", "k", "k", "kr", "kn", "l", "l", "lc", "ll", "lm", "lt", "lw", "m", "m", "mn", "mr", "n", "n", "nc", "ndl", "nh", "nn", "ns", "nz", "r", "r", "rd", "rk", "rn", "rs", "rv", "ry", "s", "s", "st", "sk", "sr", "str", "t", "th", "tr", "tn", "t", "thm", "v", "v", "z", "z"];

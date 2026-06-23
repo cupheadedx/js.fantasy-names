@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$anoukis() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "y", "z"];
 	var nm2 = ["a", "u", "o", "e"];
 	var nm3 = ["u", "o", "u", "o", "u", "o", "oo"];

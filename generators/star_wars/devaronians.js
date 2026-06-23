@@ -1,4 +1,6 @@
 function generator$star_wars$devaronians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["c", "cr", "ch", "g", "gr", "h", "j", "k", "l", "m", "n", "r", "s", "t", "tr", "v", "vr", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "ue", "ao", "ei", "aa"];
 	var nm3 = ["c", "ch", "g", "gh", "gr", "k", "kr", "kh", "kl", "l", "ll", "lm", "m", "mr", "mm", "md", "n", "nd", "r", "rt", "ss", "vr", "v"];

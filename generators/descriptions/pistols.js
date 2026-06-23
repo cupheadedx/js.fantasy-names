@@ -1,4 +1,6 @@
 function generator$descriptions$pistols() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["very small", "small", "small", "fairy small", "fairly small", "average", "fairly large", "fairly large", "large", "large", "very large"];
 	var nm2 = ["pistol", "double-barreled pistol", "derringer", "pepperbox", "double-barreled derringer", "double-barreled pepperbox", "revolver", "semi-automatic pistol", "machine pistol", "revolver", "revolver", "pistol"];
 	var nm3 = ["a beloved choice", "a celebrated pick", "a common choice", "a famous model", "a favorable model", "a favored pick", "a leading choice", "a noteworthy choice", "a peculiar choice", "a pleasing choice", "a popular choice", "a preferred model", "a preferred option", "a prominent choice", "a sought after model", "a suitable choice", "a well-liked model", "an eccentric choice", "an exceptional choice", "an extraordinary model", "an in demand model", "an often promoted choice", "an uncommon pick"];

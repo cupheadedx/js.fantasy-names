@@ -1,4 +1,6 @@
 function generator$descriptions$battlefields() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["field", "forest", "farm field", "beach", "village", "town", "city"];
 	var nm2 = ["bodies", "blood", "gore", "suits", "weapons", "shells", "carnage", "wounded fighters", "destruction"];
 	var nm3 = ["pink", "silver", "brown", "blue", "black", "gray", "khaki"];

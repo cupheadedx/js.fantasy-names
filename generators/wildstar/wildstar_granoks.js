@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_granoks(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["br", "d", "dr", "g", "gr", "j", "k", "kr", "q", "r", "t", "v", "z"];
 	var nm2 = ["a", "e", "o", "u"];
 	var nm3 = ["b", "br", "d", "dr", "g", "gg", "gn", "k", "kn", "kk", "lk", "lg", "r", "rr", "rk", "rg", "rv", "rz", "rd", "rb", "v", "z", "zk", "zg"];

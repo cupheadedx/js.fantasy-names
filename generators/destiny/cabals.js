@@ -1,4 +1,6 @@
 function generator$destiny$cabals() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["d", "dh", "g", "gh", "k", "kh", "m", "n", "sh", "t", "th", "tl", "v", "z", "zh"];
 	var nm2 = ["a'au", "au'ua", "o'ou", "u'u", "u'ua", "u'uo", "ua'au"];
 	var nm2b = ["a", "o", "u"];

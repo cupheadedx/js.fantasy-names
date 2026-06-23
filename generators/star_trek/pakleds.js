@@ -1,4 +1,6 @@
 function generator$star_trek$pakleds(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "D", "G", "H", "K", "L", "N", "M", "P", "R"];
 	var nm2 = ["a", "e", "o", "i", "u"];
 	var nm3 = ["b", "d", "g", "h", "k", "l", "n", "m", "p", "r"];

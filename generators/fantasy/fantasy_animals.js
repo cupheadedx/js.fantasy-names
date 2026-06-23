@@ -1,4 +1,6 @@
 function generator$fantasy$fantasy_animals() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["Alba", "Alli", "Ana", "Ante", "Arma", "Barra", "Bea", "Buffa", "Cani", "Cari", "Cate", "Coyo", "Cri", "Cro", "Croco", "Drago", "Ele", "Feli", "Fla", "Flami", "Gaze", "Gira", "Hexa", "Hone", "Jagu", "Komo", "Leo", "Locu", "Mana", "Moo", "Pa", "Pea", "Peli", "Phea", "Porcu", "Rhi", "Rhino", "Sala", "Sco", "Sku", "Sna", "Snai", "Spa", "Spi", "Squi", "Sti", "Toa", "Ursa", "Vi", "Wea", "Wha", "Woo"];
 	var nm2 = ["b", "c", "d", "f", "g", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z", "b", "c", "d", "f", "g", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z", "br", "cr", "dr", "gr", "kr", "pr", "sr", "st", "str", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "cs", "ds", "fs", "gs", "ks", "ls", "ms", "ns", "ps", "rs", "ss", "ts", "bb", "cc", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "ww", "zz"];
 	var nm3 = ["a", "o", "i", "e", "u", "aa", "oo", "ee", "au", "ou", "ea", "eo"];

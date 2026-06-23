@@ -1,4 +1,6 @@
 function generator$pop_culture$stormlight_archives(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "bl", "c", "d", "g", "gr", "h", "j", "k", "l", "m", "n", "r", "s", "t", "th", "v", "w", "y"];
 	var nm2 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "a", "a", "a", "e", "i", "o", "u", "a", "e", "i", "o", "oa", "ea", "ia", "ai", "io"];
 	var nm3 = ["b", "br", "d", "k", "l", "lh", "ll", "m", "mm", "n", "r", "rf", "rr", "rt", "sh", "st", "t", "th", "v"];

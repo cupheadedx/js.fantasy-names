@@ -1,4 +1,6 @@
 function generator$military$itu() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Amsterdam", "Baltimore", "Casablanca", "Denmark", "Edison", "Florida", "Gallipoli", "Havana", "Italia", "Jerusalem", "Kilogramme", "Liverpool", "Madagascar", "New York", "Oslo", "Paris", "Quebec", "Roma", "Santiago", "Tripoli", "Upsala", "Valencia", "Washington", "Xanthippe", "Yokohama", "Zurich"];
 
 	var r1 = Math.floor(Math.random() * names.length);

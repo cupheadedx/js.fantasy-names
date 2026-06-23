@@ -1,4 +1,6 @@
 function generator$pop_culture$avatar_last_airbenders(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["g", "h", "l", "m", "n", "gy", "p", "r", "s", "t"];
 	var nm2 = ["a", "e", "i", "o"];
 	var nm3 = ["h", "l", "ll", "m", "n", "ng", "nz", "r", "s", "sh", "ts"];

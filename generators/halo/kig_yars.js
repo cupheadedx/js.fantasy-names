@@ -1,4 +1,6 @@
 function generator$halo$kig_yars() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "i", "o", "u"];
 	var nm2 = ["b", "c", "d", "g", "j", "n", "k", "m", "r", "t", "th", "y", "z", "zh"];
 	var nm3 = ["b", "c", "d", "g", "k", "m", "n", "p", "q", "r", "th", "x", "z"];

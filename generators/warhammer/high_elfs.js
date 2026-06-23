@@ -1,4 +1,6 @@
 function generator$warhammer$high_elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm = ["Bel-", "", "", "", ""];
 	var nm1 = ["", "", "", "", "", "c", "d", "f", "g", "gh", "h", "k", "m", "s", "sh", "t", "th", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "e", "e", "o", "o", "ye", "ae", "io", "ya", "aa"];

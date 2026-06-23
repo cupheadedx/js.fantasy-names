@@ -1,4 +1,6 @@
 function generator$star_wars$gungans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "bl", "br", "c", "cr", "cl", "d", "f", "fl", "fr", "g", "h", "j", "k", "kl", "kr", "l", "m", "n", "p", "r", "s", "sk", "t", "w", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oo", "oe", "ee", "ie", "ue", "ia", "au"];
 	var nm3 = ["b", "bb", "bl", "bs", "d", "dr", "g", "gg", "k", "kf", "kn", "l", "ll", "llb", "lsb", "lsk", "ly", "m", "mb", "mf", "n", "nb", "nk", "nn", "nt", "p", "pp", "r", "rk", "rs", "rt", "rv", "s", "sm", "ss", "t", "tt", "v", "x", "z", "zz"];

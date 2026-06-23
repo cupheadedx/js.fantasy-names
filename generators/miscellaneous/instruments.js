@@ -1,4 +1,6 @@
 function generator$miscellaneous$instruments() {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", "", "", ""];
 	var names2 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "gr", "pr", "tr", "ch", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "st", "str"];
 	var names3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "ie", "io", "ai", "ea", "ei", "eo"];

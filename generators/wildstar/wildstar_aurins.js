@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_aurins(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "d", "f", "g", "h", "l", "m", "n", "s", "r", "t", "v"];
 	var nm2 = ["a", "e", "i", "y"];
 	var nm3 = ["b", "ff", "h", "l", "ll", "m", "mm", "n", "nn", "r", "rv", "rl", "v", "w", "z"];

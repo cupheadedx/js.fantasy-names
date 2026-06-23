@@ -1,4 +1,6 @@
 function generator$star_wars$korunnais(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "br", "d", "g", "gr", "k", "l", "m", "n", "pr", "r", "s", "t", "th", "tr", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "io", "ii", "ou"];
 	var nm3 = ["c", "d", "ff", "g", "k", "l", "ll", "mm", "n", "nn", "r", "rr", "s", "ss", "th", "v", "z"];

@@ -1,4 +1,6 @@
 function generator$places$civilizations() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "fr", "gr", "kr", "pr", "sr", "tr", "vr", "wr", "str", "st", "bl", "cl", "fl", "gl", "kl", "sl", "vl", "ch", "ph", "sh", "sch", "gn", "kn", "sn", "sm", "sw", "tw", "sc", "wh", "th", "thr", "sph", "spr"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ee", "eu", "eo", "ea", "ei", "aa", "ai", "au", "ae", "io", "ia", "iu", "ie", "oo", "oa", "ou", "oe", "oi", "uu", "ua", "ue", "ui", "uo"];

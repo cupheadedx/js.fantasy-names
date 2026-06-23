@@ -1,4 +1,6 @@
 function generator$warhammer$daemons_of_chaos() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "c", "ch", "cr", "cz", "g", "gr", "k", "kr", "kh", "n", "q", "qh", "qr", "r", "rh", "sc", "str", "sk", "t", "tr", "v", "vr", "z", "zh"];
 	var nm2 = ["a", "o", "u", "a", "o", "u", "i", "a", "o", "u", "a", "o", "u", "i", "e", "e", "ai"];
 	var nm3 = ["'", "", "", "", "", ""];

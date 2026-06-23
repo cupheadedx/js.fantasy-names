@@ -1,4 +1,6 @@
 function generator$elder_scrolls$forsworns(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "d", "dr", "g", "gr", "h", "k", "m", "n", "p", "pr", "r", "s", "t", "tr", "v", "w"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "ey", "ay", "ai", "ua", "uu", "uo", "au"];
 	var nm3 = ["br", "bb", "cc", "cr", "cd", "d", "dv", "dr", "dl", "gv", "gl", "gm", "gn", "gr", "l", "lr", "lm", "ln", "lk", "lv", "ld", "lc", "mr", "ml", "mm", "mv", "md", "n", "nn", "nd", "nb", "nv", "nr", "ng", "r", "rk", "rv", "rg", "rd", "rb", "rt", "st", "sl", "sr", "v", "vv", "vr", "vl"];

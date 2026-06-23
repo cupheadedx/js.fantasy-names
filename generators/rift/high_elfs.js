@@ -1,4 +1,6 @@
 function generator$rift$high_elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	if (type === 1) {
 		var names1 = ["Ael", "Aem", "Aer", "Aern", "Aest", "Ag", "Aghn", "Ail", "Aiy", "Alis", "Am", "Amay", "Aoib", "Awen", "Brian", "Brig", "Cael", "Caen", "Cainn", "Ceall", "Cear", "Chey", "Daer", "Deir", "Don", "Eab", "Ead", "Eil", "Eist", "Eor", "Eten", "Faen", "Fen", "Fin", "Finn", "Gael", "Gel", "Hat", "Kim", "Kol", "Laen", "Leen", "Lenm", "Maed", "Maen", "Maer", "Maev", "Mag", "Mair", "Med", "Mig", "Moir", "Mor", "Muir", "Naem", "Nam", "Nual", "On", "Onid", "Orl", "Ros", "Saen", "Shan", "Sib", "Sor", "Taer", "Tak", "Ter", "Wak", "Wik", "Yok"];
 		var names2 = ["aela", "aelah", "aena", "aene", "aenon", "aid", "aigen", "aimh", "aine", "aith", "ala", "alae", "alasa", "ane", "angwa", "ania", "anne", "anon", "aoin", "aoine", "athla", "auma", "awa", "eal", "eala", "eamhna", "eann", "ear", "earca", "eekoni", "een", "eine", "eis", "enda", "enia", "enna", "iav", "ighid", "ilahi", "ilin", "ine", "inita", "inka", "inn", "iona", "ionn", "irin", "irne", "is", "ise", "ish", "ita", "odhna", "oise", "oma", "ona", "oni", "onora", "ose", "ovi", "uala", "uanee", "ulah", "unia", "uoia"];

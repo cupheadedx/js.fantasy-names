@@ -1,4 +1,6 @@
 function generator$descriptions$rag_clothings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var tp = type;
 	var nm1 = ["Her", "She", "her", "she", "her", "His", "He", "his", "he", "him"];
 	var nm2 = ["shirt", "t-shirt"];

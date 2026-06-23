@@ -1,4 +1,6 @@
-function generator$inheritance_cycle$elfs(type) {﻿
+function generator$inheritance_cycle$elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "bl", "c", "cl", "d", "f", "g", "gl", "gn", "h", "k", "l", "m", "n", "t", "th", "v", "vr", "w"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "í", "ö", "ä", "äo", "á", "ae", "ia", "ie", "io", "au", "ae"];
 	var nm3 = ["c", "d", "dhg", "dg", "dr", "dh", "f", "g", "gh", "l", "lm", "ln", "ld", "ldth", "ll", "lr", "mn", "m", "mh", "n", "nd", "nr", "nth", "nw", "r", "rd", "rv", "rz", "rth", "s", "sd", "th", "tr", "v"];

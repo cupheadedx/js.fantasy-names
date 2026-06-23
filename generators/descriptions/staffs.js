@@ -1,4 +1,6 @@
 function generator$descriptions$staffs() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = (Math.random() * 60 | 0) + 160;
 	var nm1b = (nm1 * 0.393701 | 0)
 	var nm2 = ["elegant", "exceptional", "exclusive", "expensive", "extraordinary", "first-class", "first-rate", "gorgeous", "grand", "magnificent", "marvelous", "primal", "rare", "refined", "solid", "superior", "supreme", "the finest", "unique", "wicked"];

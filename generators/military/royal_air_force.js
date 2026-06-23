@@ -1,4 +1,6 @@
 function generator$military$royal_air_force() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Ace", "Beer", "Charlie", "Don", "Edward", "Freddie", "George", "Harry", "Ink", "Johnnie", "King", "London", "Monkey", "Nuts", "Orange", "Pip", "Queen", "Robert", "Sugar", "Toc", "Uncle", "Vic", "William", "Xray", "Yorker", "Zebra"];
 
 	var r1 = Math.floor(Math.random() * names.length);

@@ -1,4 +1,6 @@
 function generator$star_wars$neimoidians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "bl", "br", "c", "ch", "d", "dr", "f", "g", "gr", "h", "j", "k", "kl", "kr", "l", "m", "n", "p", "pr", "r", "s", "sm", "t", "th", "v", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "i", "u", "i", "u", "u", "u", "ai", "au", "oo", "ee", "ui", "oa", "uu"];
 	var nm3 = ["b", "bm", "d", "dm", "dml", "dr", "f", "g", "gr", "hv", "k", "kv", "l", "lf", "lv", "lr", "lt", "m", "md", "mv", "n", "nv", "nd", "ndd", "nj", "nr", "nt", "p", "r", "rg", "rl", "rr", "sh", "shr", "ss", "t", "th", "w", "z"];

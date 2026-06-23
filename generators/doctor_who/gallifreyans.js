@@ -1,4 +1,6 @@
 function generator$doctor_who$gallifreyans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "c", "ch", "d", "dr", "f", "g", "gl", "gr", "h", "j", "k", "l", "m", "n", "p", "pr", "q", "r", "s", "st", "t", "th", "tr", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia"];
 	var nm3 = ["bl", "br", "bj", "d", "ff", "g", "gn", "gr", "kk", "kl", "kr", "lj", "l", "lg", "ll", "lr", "lm", "ly", "lp", "m", "mr", "md", "mt", "nd", "ndr", "nc", "ng", "nn", "ns", "nt", "nz", "p", "pp", "r", "rn", "rb", "rt", "rl", "rkh", "rv", "sb", "sm", "sp", "ss", "sk", "t", "th", "tth", "v", "vl", "vr", "w", "wtr", "x", "xr", "xt", "zm"];

@@ -1,4 +1,6 @@
 function generator$places$magic_schools() {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var names2 = ["b", "d", "k", "l", "m", "n", "p", "r", "s", "t", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "br", "dr", "gr", "kr", "pr", "str", "tr", "bl", "cl", "fl", "gl", "kl", "pl", "sl"];
 	var names3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "ea", "ou", "au", "a", "e", "o"];

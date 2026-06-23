@@ -1,4 +1,6 @@
 function generator$world_of_warcraft$gnome(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["Ba", "Bil", "Bim", "Bin", "Bink", "Bo", "Bom", "Bon", "Bonk", "Bu", "Bur", "Car", "Do", "Don", "Donk", "Di", "Dim", "Din", "Dink", "El", "Fen", "Fil", "Fim", "Fin", "Fink", "Gel", "Gim", "Glim", "Glin", "Glink", "Gno", "Hin", "Hink", "Klo", "La", "Lo", "Mit", "Mittle", "Nit", "Nittle", "Pit", "Pith", "Tal", "Ten", "Teen", "Then", "Thin", "Think", "Tin", "To", "Toc", "Tyn"];
 	var nm2 = ["k", "b", "l", "ka", "ba", "la", "lo", "bo", "ko", "li", "bi", "ki", "da", "do", "di", "bee", "lee", "kee", "dee", "le", "a", "o", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm3 = ["ago", "an", "argo", "arn", "ash", "bick", "bik", "bink", "ble", "brik", "brick", "bus", "dink", "dus", "fink", "finkle", "flink", "fonk", "flonk", "fizz", "go", "gus", "kink", "klink", "klonk", "link", "mac", "mink", "nk", "nus", "onk", "rgo", "sizz", "ris", "tink", "tonk", "tank", "think", "thin", "ulo", "vash", "vizz", "wick", "win", "wack", "wizz"];

@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$deitys(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "b", "c", "d", "j", "k", "l", "m", "n", "r", "t", "v", "z"];
 	var nm2 = ["y", "a", "e", "i", "o", "u"];
 	var nm3 = ["b", "br", "cl", "d", "g", "gr", "gn", "h", "k", "kr", "l", "ld", "ll", "ln", "lm", "m", "mn", "n", "ph", "r", "v", "vr", "z", "zr", "b", "d", "h", "k", "l", "m", "n", "r", "v", "z", "b", "d", "h", "k", "l", "m", "n", "r", "v", "z"];

@@ -1,4 +1,6 @@
 function generator$warhammer$warriors_of_chaos(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "bl", "br", "d", "dr", "dj", "f", "fr", "g", "gr", "gh", "k", "kh", "kr", "m", "r", "s", "sc", "sr", "sk", "sz", "str", "t", "tr", "v", "w"];
 	var nm2 = ["a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "ao", "au", "oa", "ay"];
 	var nm3 = ["d", "gg", "k", "kh", "l", "m", "r", "rr", "z", "zh", "zz", "d", "gg", "k", "kh", "l", "m", "r", "rr", "z", "zh", "zz", "d", "gg", "k", "kh", "l", "m", "r", "rr", "z", "zh", "zz", "d", "gg", "k", "kh", "l", "m", "r", "rr", "z", "zh", "zz", "d", "dr", "dz", "gv", "gg", "gr", "gn", "gtr", "gz", "k", "kr", "kz", "kh", "ktr", "kth", "kx", "l", "lr", "lfr", "lvr", "lv", "lg", "lgr", "ld", "ldr", "m", "mk", "mkr", "mz", "mv", "mvr", "r", "rr", "rx", "rz", "rzr", "rk", "rkh", "rch", "rgh", "rb", "sz", "str", "sgr", "sg", "sk", "skr", "st", "sht", "shtr", "shk", "szh", "z", "zh", "zz", "zr"];

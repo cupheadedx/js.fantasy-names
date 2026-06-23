@@ -1,4 +1,6 @@
 function generator$fantasy$nagas() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "ch", "d", "dh", "dhr", "h", "hr", "j", "jy", "k", "kh", "kr", "ksh", "l", "m", "n", "p", "pr", "s", "sr", "t", "v", "vr"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "a", "a", "a", "a", "a", "i", "i"];
 	var nm3 = ["bh", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "y", "bh", "d", "dg", "dh", "dhy", "dm", "dr", "g", "h", "hl", "hy", "j", "k", "kh", "ksh", "ky", "l", "lm", "lw", "m", "mkh", "mv", "mvr", "n", "nd", "ndh", "ng", "nj", "nkh", "nm", "nshtr", "nt", "nth", "p", "pt", "r", "rd", "rk", "rm", "rn", "rt", "ry", "s", "sh", "shk", "shm", "shn", "shp", "shth", "shtr", "sr", "st", "sth", "sw", "t", "th", "tr", "tt", "ttr", "ty", "v", "vy", "y", "yl"];

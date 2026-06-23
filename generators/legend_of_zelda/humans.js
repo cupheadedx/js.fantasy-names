@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$humans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "a", "e", "i", "o", "u", "i", "a", "e"];
 	var nm2 = ["b", "c", "d", "j", "k", "l", "m", "n", "r", "t", "z"];
 	var nm3 = ["a", "i", "o", "u", "a", "o"];

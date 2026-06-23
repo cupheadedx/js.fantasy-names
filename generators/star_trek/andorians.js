@@ -1,4 +1,6 @@
 function generator$star_trek$andorians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "o", "i", "", "", "", "", "", "", ""];
 	var nm2 = ["k", "r", "sh", "shr", "t", "th", "s", "b"];
 	var nm3 = ["a", "e", "o", "i", "y"];

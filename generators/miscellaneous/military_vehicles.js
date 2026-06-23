@@ -1,4 +1,6 @@
 function generator$miscellaneous$military_vehicles(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm3 = ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 	var nm4 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"];
 	var nm5 = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];

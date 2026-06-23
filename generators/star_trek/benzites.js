@@ -1,4 +1,6 @@
 function generator$star_trek$benzites(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "g", "j", "k", "m", "p", "q", "r", "t", "v", "z"];
 	var nm2 = ["a", "e", "u", "i", "o"];
 	var nm3 = ["b", "d", "r", "rr", "dd", "zz", "rb", "rd", "rg", "rj", "rk", "rq", "rt", "rh", "rl", "rs", "rv", "nd", "ng", "nd", "nr", "nt", "nv", "dg", "zd", "zg", "zr"];

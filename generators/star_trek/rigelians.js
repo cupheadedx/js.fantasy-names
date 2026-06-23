@@ -1,4 +1,6 @@
 function generator$star_trek$rigelians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "C", "Ch", "D", "G", "Gr", "K", "Kr", "M", "Pr", "R", "Sr", "Sch", "T", "V", "Vr", "W", "Z"];
 	var nm2 = ["a", "ae", "ei", "i", "o", "ou", "u", "a", "u", "a", "u", "o", "ii", "ea", "oo", "aa", "a", "u"];
 	var nm3 = ["b", "b", "ch", "d", "g", "d", "g", "gr", "k", "l", "m", "n", "t", "v", "w", "k", "l", "m", "n", "t", "v", "w", "xt", "y", "z", "y", "z", "zy"];

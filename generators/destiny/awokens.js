@@ -1,4 +1,6 @@
 function generator$destiny$awokens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "c", "g", "j", "k", "q", "r", "v", "x", "z"];
 	var nm2 = ["a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "oo", "ou", "uu", "aa"];
 	var nm3 = ["d", "dr", "g", "gd", "gr", "h", "j", "ldr", "lgr", "ndr", "ngr", "q", "r", "rg", "rj", "sg", "v", "vg", "x", "z", "zg"];

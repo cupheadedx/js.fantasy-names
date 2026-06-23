@@ -1,4 +1,6 @@
 function generator$star_wars$ortolans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "b", "d", "h", "l", "m", "n", "p", "r", "t", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "o", "a", "e", "a", "e", "i", "o", "u", "a", "e", "o", "a", "e", "ee", "oo"];
 	var nm3 = ["b", "bb", "br", "bn", "d", "dn", "dr", "dd", "j", "l", "lb", "lbr", "ldr", "lr", "lm", "ln", "ld", "md", "ml", "mdr", "md", "mr", "mm", "mn", "ndr", "n", "nn", "nl", "nd", "nb", "r", "rl", "rn", "rm", "rd", "rb"];

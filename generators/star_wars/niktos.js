@@ -1,4 +1,6 @@
 function generator$star_wars$niktos() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "bh", "br", "c", "ch", "d", "dr", "f", "fh", "g", "gr", "h", "j", "kl", "l", "m", "n", "p", "r", "s", "sr", "sl", "t", "ts", "v", "wl"];
 	var nm2 = ["a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "au", "oo", "io", "ia", "ou", "aa", "ai", "oi", "ea"];
 	var nm3 = ["b", "bb", "bd", "d", "dd", "dr", "dg", "dr", "g", "gr", "gg", "gb", "k", "kt", "kr", "kn", "kh", "l", "lf", "ll", "lv", "m", "n", "nd", "ndl", "ndr", "ng", "ns", "nt", "r", "rd", "rk", "rsk", "s", "sh", "ss", "t", "th", "v", "x", "z"];

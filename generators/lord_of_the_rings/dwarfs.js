@@ -1,4 +1,6 @@
 function generator$lord_of_the_rings$dwarfs() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "br", "d", "dr", "dw", "f", "fl", "fr", "g", "gl", "gr", "k", "kh", "kr", "l", "m", "mh", "n", "t", "th", "thr"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["b", "f", "fr", "l", "lb", "lr", "lv", "m", "mb", "ml", "mr", "n", "nd", "nr", "r", "rb", "rl", "rv", "s", "sr"];

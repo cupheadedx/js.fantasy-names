@@ -1,4 +1,6 @@
 function generator$fantasy$cavemens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "br", "bh", "cr", "d", "dr", "dh", "fr", "g", "gr", "gn", "gh", "j", "kr", "kh", "n", "r", "t", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "a", "o", "o", "o", "ou", "oo", "aa", "oe", "ua", "uu", "ia"];
 	var nm3 = ["cr", "cc", "ch", "d", "dd", "dr", "dh", "dv", "g", "gg", "gr", "gn", "gv", "gz", "k", "kn", "kz", "kv", "kk", "l", "ll", "lr", "lk", "mg", "mk", "n", "ng", "nk", "nd", "nr", "rg", "rd", "rb", "rl", "rr", "rz", "rv", "rk", "sk", "sg", "sv", "t", "tk", "tz", "tt", "v", "vv", "vr", "vk", "vd", "z", "zz", "zk", "zd", "zc", "zg"];

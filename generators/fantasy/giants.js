@@ -1,4 +1,6 @@
 function generator$fantasy$giants() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "w", "x", "z", "a", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "w", "x", "z", "ar", "br", "cr", "dr", "fr", "gr", "kr", "sr", "tr", "vr", "wr", "al", "bl", "cl", "dl", "fl", "gl", "kl", "sl", "vl", "zl", "", "", "", "", ""];
 	var nm2 = ["e", "i", "u", "o", "a"];
 	var nm3 = ["b", "c", "d", "f", "g", "k", "l", "m", "n", "r", "s", "t", "w", "x", "z", "", "", "", "", "", "", "", "", ""];

@@ -1,4 +1,6 @@
 function generator$game_of_thrones$free_citys(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["Adar", "Aer", "Ar", "Ball", "Bel", "Brach", "Daar", "Don", "Draq", "Garr", "Goran", "Gyll", "Har", "Harl", "Hor", "Ill", "Inn", "Irr", "Jaer", "Jaq", "Jor", "Laraz", "Laz", "Lys", "Maerr", "Mal", "Mar", "Nak", "Nor", "Nyess", "Sall", "Stall", "Syr", "Thor", "Treg", "Tych", "Var", "Varg", "Vog", "Vyr"];
 	var names2 = ["adhor", "an", "ano", "aphos", "aquo", "ar", "ario", "aro", "apho", "arro", "ello", "elos", "en", "enhor", "enno", "eo", "eqor", "ero", "esso", "icho", "idos", "illos", "io", "iphos", "iros", "o", "odos", "onar", "onno", "onos", "oquo", "or", "orno", "oros", "os", "yllo", "ynno", "yrio", "yros", "ys"];
 	var names3 = ["Ahr", "Aren", "Daen", "Dil", "Dor", "Erin", "Erl", "Faey", "Fer", "Firan", "Harr", "Hel", "Hen", "Il", "Iner", "Laen", "Ler", "Less", "Mel", "Mesh", "Min", "Nes", "Nil", "Noar", "Onal", "Or", "Phen", "Phir", "Sael", "Ser", "Sir", "Taen", "Tir", "Triann", "Vaer", "Vell", "Vor", "Waer", "Wen", "Wyn"];

@@ -1,4 +1,6 @@
 function generator$star_wars$falleens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["c", "cz", "h", "j", "k", "s", "t", "th", "tr", "x", "xz", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "uu", "ee"];
 	var nm3 = ["b", "h", "j", "n", "nn", "m", "mr", "mn", "mm", "rr", "sh", "sz", "t", "z", "zz"];

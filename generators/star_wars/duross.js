@@ -1,4 +1,6 @@
 function generator$star_wars$duross(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "c", "d", "f", "g", "h", "j", "l", "m", "n", "r", "s", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ei", "aa", "ai", "oo"];
 	var nm3 = ["d", "dw", "hw", "l", "lz", "ls", "ld", "lw", "m", "ms", "mz", "n", "ns", "nz", "nss", "nt", "rw", "z", "d", "l", "m", "n", "z"];

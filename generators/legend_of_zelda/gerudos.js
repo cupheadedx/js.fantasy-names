@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$gerudos(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "C", "D", "G", "H", "K", "M", "R", "T"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "br", "bl", "dr", "dl", "fl", "fn", "fm", "fr", "gr", "gn", "gm", "lb", "ld", "lg", "lm", "ln", "lr", "lt", "lz", "mb", "md", "ml", "mn", "mr", "nb", "nd", "ng", "nl", "nm", "nr", "nz", "rb", "rd", "rg", "rl", "rm", "rn", "rt", "rs", "tl", "tm", "tn", "tr", "vl", "vm", "zl"];

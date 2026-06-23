@@ -1,4 +1,6 @@
 function generator$miscellaneous$herbs() {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "ch", "sh", "ph", "br", "cr", "dr", "gr", "kr", "pr", "str", "vr", "wr", "", "bl", "cl", "gl", "fl", "kl", "pl", "sl"];
 	var names2 = ["a", "e", "i", "o", "u"];
 	var names3 = ["sh", "ch", "ph", "cr", "dr", "gr", "str", "cl", "gl", "kl", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "bb", "cc", "dd", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt"];

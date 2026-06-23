@@ -1,4 +1,6 @@
 function generator$pathfinder$elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "c", "d", "f", "g", "h", "k", "kr", "l", "m", "n", "s", "t", "th", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "e", "e", "ae", "ia", "ie", "ea", "ei", "io"];
 	var nm3 = ["ch", "cl", "cv", "dr", "dv", "g", "g", "g", "gl", "gr", "ghr", "ght", "h", "h", "h", "j", "j", "l", "l", "l", "l", "l", "l", "lm", "ln", "ldr", "lvr", "ld", "ldl", "ll", "ls", "lth", "lv", "m", "m", "m", "m", "mr", "mv", "n", "n", "n", "n", "nr", "nv", "nvr", "nth", "nd", "ndl", "ndr", "nl", "r", "r", "r", "r", "r", "rl", "rgr", "rg", "rd", "rdl", "rdr", "s", "s", "s", "s", "sh", "shn", "st", "sv", "sr", "sth", "t", "t", "t", "th", "th", "v", "v", "v", "vr", "y", "y", "y"];

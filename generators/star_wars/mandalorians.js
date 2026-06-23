@@ -1,4 +1,6 @@
 function generator$star_wars$mandalorians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "", "", "", "b", "br", "c", "ch", "d", "dr", "g", "gh", "gr", "h", "j", "k", "kr", "l", "ll", "m", "n", "nj", "p", "r", "rh", "s", "t", "tr", "th", "thr", "v", "vr", "w", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "a", "o", "o", "o", "u", "u", "u", "a", "o", "u", "ae", "uu", "ii", "aa", "ea", "ai", "ee", "io", "oe"];
 	var nm3 = ["b", "bb", "d", "dd", "g", "gg", "j", "k", "kk", "l", "ll", "m", "n", "nn", "p", "r", "rr", "s", "ss", "t", "v", "y", "b", "d", "g", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "y", "b", "bb", "br", "bz", "d", "dd", "dz", "dr", "g", "gg", "gb", "gd", "ht", "j", "k", "kk", "kb", "kd", "kr", "ksh", "l", "ll", "lm", "lr", "m", "mz", "n", "nd", "ng", "nn", "nt", "nz", "p", "ps", "r", "rbr", "rd", "rg", "rk", "rr", "rst", "rt", "rth", "s", "sc", "ss", "t", "ty", "v", "y", "zd"];

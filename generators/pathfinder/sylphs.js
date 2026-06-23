@@ -1,4 +1,6 @@
 function generator$pathfinder$sylphs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "c", "d", "f", "g", "h", "j", "l", "m", "n", "s", "v", "w", "z"];
 	var nm2 = ["a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "aa", "uu", "ii"];
 	var nm3 = ["d", "f", "g", "j", "k", "l", "m", "n", "s", "v", "w", "z"];

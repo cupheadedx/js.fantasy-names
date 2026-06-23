@@ -1,4 +1,6 @@
 function generator$miscellaneous$holy_books(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm3 = ["Book", "Books", "Scroll", "Scrolls", "Testament", "Testaments", "Codex", "Codices", "Chronicle", "Chronicles", "Tome", "Tomes", "Word", "Words"];
 	var nm4 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm5 = ["a", "e", "u", "i", "o", "y"];

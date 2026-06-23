@@ -1,4 +1,6 @@
 function generator$star_wars$anzatis(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "b", "d", "g", "h", "k", "m", "n", "r", "s", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lf", "lg", "lr", "ld", "nn", "nt", "nr", "mr", "mm", "md", "rr", "rk", "rt", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];

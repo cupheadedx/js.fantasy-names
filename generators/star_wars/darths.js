@@ -1,4 +1,6 @@
 function generator$star_wars$darths(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "", "", "", "", "b", "br", "c", "ch", "chr", "cr", "d", "dr", "f", "g", "gl", "gr", "h", "j", "k", "kr", "kh", "l", "m", "mh", "n", "pl", "pr", "q", "r", "s", "sc", "sk", "st", "str", "sr", "t", "th", "tr", "v", "w", "wr", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "y", "ou", "ae", "ea", "ui", "ia", "ue", "ei", "uy"];
 	var nm3 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lf", "lg", "lr", "ld", "nn", "nt", "nr", "mr", "mm", "md", "rr", "rk", "rt", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];

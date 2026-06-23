@@ -1,4 +1,6 @@
 function generator$fantasy$ogres() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Bl", "Br", "D", "Dr", "G", "Gl", "Gr", "K", "Kl", "Kr", "M", "N", "T", "Tr", "V", "Vr", "W", "X", "Y", "Z", "", "", "", ""];
 	var nm2 = ["e", "i", "u", "o", "a"];
 	var nm3 = ["b", "d", "g", "k", "l", "m", "n", "r", "s", "t", "w", "x", "z", "", "", "", "", "", "", "", "", ""];

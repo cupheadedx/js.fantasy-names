@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_cassians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "c", "cl", "d", "fl", "g", "h", "l", "m", "p", "s", "t", "v"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["b", "c", "cc", "cr", "ct", "d", "g", "l", "ll", "ln", "lv", "m", "mp", "n", "nn", "ns", "nt", "pp", "pr", "r", "rb", "rm", "rn", "rr", "rs", "rt", "ss", "st", "t", "tr", "v", "x"];

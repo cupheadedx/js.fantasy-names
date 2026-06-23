@@ -1,4 +1,6 @@
 function generator$descriptions$humanoids(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["Two", "Two", "Two", "Three", "Four", "Two"];
 	var nm2 = ["beady", "broad", "bug-eyed", "clear", "close-set", "dead", "doe-eyed", "enormous", "giant", "glassy", "glowing", "heavy", "hollow", "hooded", "large", "narrow", "shiny", "shuttered", "small", "sunken", "thin", "tiny", "wide"];
 	var nm3 = ["observe", "study", "watch", "inspect", "examine", "monitor", "survey", "look at", "view"];

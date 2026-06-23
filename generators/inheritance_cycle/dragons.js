@@ -1,4 +1,6 @@
 function generator$inheritance_cycle$dragons(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "c", "d", "f", "g", "gl", "gr", "k", "l", "n", "r", "s", "sr", "shr", "t", "th", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "io", "ui", "ua", "au"];
 	var nm3 = ["b", "d", "g", "k", "ln", "l", "lg", "lm", "m", "md", "n", "nd", "r", "rm", "rn"];

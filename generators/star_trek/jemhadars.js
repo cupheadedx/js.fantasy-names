@@ -1,4 +1,6 @@
 function generator$star_trek$jemhadars(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "i", "o", "", "", ""];
 	var nm2 = ["d", "g", "k", "l", "m", "n", "r", "s", "t", "v", "y", "z"];
 	var nm3 = ["a", "u", "o", "i", "e", "a"];

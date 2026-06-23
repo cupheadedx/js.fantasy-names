@@ -1,4 +1,6 @@
 function generator$star_wars$nautolans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "c", "d", "f", "h", "j", "k", "kh", "kn", "l", "m", "n", "p", "r", "rh", "rr", "s", "sh", "shr", "t", "v", "w", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oo", "ey", "ei", "ea", "ee", "aa"];
 	var nm3 = ["ch", "d", "dd", "f", "fr", "k", "kt", "kx", "l", "m", "mr", "md", "mt", "n", "nd", "ng", "nn", "nt", "ntv", "nr", "ny", "pr", "r", "rk", "rr", "s", "shn", "sn", "sp", "spr", "th", "tr", "tv", "v", "w", "x", "z"];

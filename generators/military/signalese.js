@@ -1,4 +1,6 @@
 function generator$military$signalese() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Ack", "Beer", "Charlie", "Don", "Edward", "Freddie", "Gee", "Harry", "Ink", "Johnnie", "King", "London", "Emma", "Nuts", "Oranges", "Pip", "Queen", "Robert", "Esses", "Toc", "Uncle", "Vic", "William", "Xray", "Yorker", "Zebra"];
 
 	var r1 = Math.floor(Math.random() * names.length);

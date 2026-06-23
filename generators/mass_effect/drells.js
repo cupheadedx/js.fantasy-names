@@ -1,4 +1,6 @@
 function generator$mass_effect$drells(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = [""];
 	var nm2 = ["ka", "ki", "ku", "ke", "ko", "sa", "si", "su", "se", "so", "sha", "shi", "shu", "she", "sho", "ta", "ti", "tu", "te", "to", "tha", "thi", "thu", "the", "tho", "dra", "dri", "dru", "dre", "dro", "ma", "mi", "mu", "me", "mo", "na", "ni", "nu", "ne", "no", "ha", "hi", "hu", "he", "ho", "fa", "fi", "fu", "fe", "fo", "ra", "ri", "ru", "re", "ro", "la", "li", "lu", "le", "lo", "ya", "yi", "yu", "ye", "yo"];
 	var nm3 = ["n", "l", "t", "k", "s", "", "", "", "", "", "", "", "", "", "", "", ""];

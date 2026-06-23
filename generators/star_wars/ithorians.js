@@ -1,4 +1,6 @@
 function generator$star_wars$ithorians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "ch", "cl", "d", "dr", "f", "g", "gr", "h", "j", "jh", "jw", "k", "kr", "l", "m", "n", "p", "ph", "pl", "pw", "q", "r", "s", "sn", "spr", "st", "t", "th", "tr", "v", "vl", "w", "wh", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa", "oo", "ea", "ua", "eo", "ou", "ee", "ao", "ii", "aa", "ui", "au", "uu", "ie"];
 	var nm3 = ["'kl", "'tr", "b", "bb", "c", "d", "dl", "ff", "g", "gg", "ggj", "h", "k", "kk", "kl", "kn", "l", "ld", "lj", "ll", "lln", "lm", "ln", "lr", "lt", "m", "mf", "ml", "mw", "n", "nc", "nd", "nf", "ngt", "nst", "nt", "nw", "pl", "r", "rf", "rgl", "rl", "rm", "rn", "rr", "rt", "rth", "s", "sh", "sh't", "sm", "ss", "sthm", "t", "th", "thw", "tr", "tt", "v", "vv", "w", "wb", "x", "xx", "z", "zl", "zz"];

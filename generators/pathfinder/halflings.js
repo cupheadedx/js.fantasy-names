@@ -1,4 +1,6 @@
 function generator$pathfinder$halflings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "b", "br", "d", "f", "h", "j", "l", "m", "n", "p", "r", "s", "t", "tr", "v", "vr", "x"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa"];
 	var nm3 = ["b", "b", "d", "d", "f", "f", "g", "g", "k", "k", "l", "l", "lb", "ld", "m", "m", "mr", "mg", "n", "n", "nd", "ng", "nk", "nt", "r", "r", "rb", "rc", "rg", "rr", "rk", "sg", "sk", "st", "v", "v", "x", "x"];

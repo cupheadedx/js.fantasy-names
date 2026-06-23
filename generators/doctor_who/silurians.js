@@ -1,4 +1,6 @@
 function generator$doctor_who$silurians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "d", "h", "k", "l", "m", "r", "t"];
 	var nm2 = ["o", "e", "a", "i"];
 	var nm3 = ["d", "dr", "cth", "ct", "cl", "cr", "hr", "hk", "hl", "kd", "kl", "kr", "l", "lr", "ln", "n", "lm", "ml", "nl", "nr", "nl", "ld", "r", "rk", "rl"];

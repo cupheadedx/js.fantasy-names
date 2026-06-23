@@ -1,4 +1,6 @@
-function generator$rift$bahmis(type) {﻿
+function generator$rift$bahmis(type) {
+	i = Math.floor(Math.random() * 10);
+
 	if (type === 1) {
 		var names1 = ["Altan", "Bat", "Bayar", "Bolor", "Ene", "Enkh", "Erdene", "Gan", "Gerel", "Hon", "Khün", "Khen", "Khon", "Mönkh", "Medekh", "Munkh", "Muuno", "Naran", "Ner", "Od", "Ogt", "Oyun", "Oyuun", "Saran", "Sertuun", "Solon", "Ter", "Uran"];
 		var names2 = ["bileg", "bish", "chimeg", "güi", "gerel", "go", "gorzol", "gorzul", "jargal", "khoi", "maa", "tsatsral", "tsetseg", "tungalag", "tuyaa", "val", "zorig"];

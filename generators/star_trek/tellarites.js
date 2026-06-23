@@ -1,4 +1,6 @@
 function generator$star_trek$tellarites(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Br", "Ch", "C", "Cr", "D", "Dv", "Fr", "F", "G", "Gl", "Gr", "H", "J", "K", "Kh", "L", "M", "N", "Pr", "R", "Sh", "Sk", "T", "Th", "Tr", "V", "W", "X", "Z", "Zh"];
 	var nm2 = ["aa", "ao", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o"];
 	var nm3 = ["bl", "fr", "g", "gr", "hr", "l", "ll", "nn", "nk", "r", "rgg", "rk", "s", "shl", "shn", "vr", "rt"];

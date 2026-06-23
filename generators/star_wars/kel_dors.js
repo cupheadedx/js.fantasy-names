@@ -1,4 +1,6 @@
 function generator$star_wars$kel_dors(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "ch", "d", "gn", "h", "j", "k", "n", "p", "pl", "r", "s", "sh", "t", "tr", "v", "w", "x", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "o", "y", "a", "e", "i", "o", "u", "a", "o", "y", "a", "o", "a", "e", "i", "o", "u", "a", "o", "y", "a", "e", "i", "o", "u", "a", "o", "y", "a", "o", "ee", "aa", "oo", "ia", "ea"];
 	var nm3 = ["'r", "c", "c'", "chk", "h", "'h", "k", "'k", "kr", "l'", "ll", "ls", "r", "r'", "rr", "rv", "'s", "s", "st", "tch", "t'", "tchk", "z", "z'", "'z"];

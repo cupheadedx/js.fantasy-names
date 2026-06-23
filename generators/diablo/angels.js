@@ -1,4 +1,6 @@
 function generator$diablo$angels(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "c", "dr", "g", "h", "l", "m", "n", "p", "r", "s", "t", "th", "v", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "ai"];
 	var nm3 = ["br", "d", "dr", "f", "g", "l", "lt", "ll", "lg", "lth", "lz", "m", "mp", "mph", "mphr", "mr", "n", "nd", "nn", "nny", "nr", "nl", "ph", "r", "s", "sr", "st", "th", "z", "zr"];

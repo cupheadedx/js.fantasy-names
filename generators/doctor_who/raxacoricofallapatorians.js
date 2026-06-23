@@ -1,4 +1,6 @@
 function generator$doctor_who$raxacoricofallapatorians() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Bl", "Br", "D", "Dr", "Gr", "G", "Gl", "J", "K", "Kr", "L", "S", "Sr", "Sl", "Tr", "Tl"];
 	var nm2 = ["a", "e", "i", "o", "u", "ee", "oo", "aa"];
 	var nm3 = ["cra", "ckt", "ckto", "f", "ft", "ll", "lm", "ln", "m", "n", "ne", "p", "rm", "rn", "rs", "rst", "st", "s", "ss", "sp", "x", "xa"];

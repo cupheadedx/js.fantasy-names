@@ -1,4 +1,6 @@
 function generator$descriptions$coat_of_arms() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["large", "fairly large", "great", "grand", "broad", "fairly small", "not too large", "standard sized", "modest", "regular sized"];
 	var nm2 = ["a symmetrical", "a symmetrical", "an asymmetrical"];
 	var nm3 = ["double inward curving", "double outward curving", "downwards curving", "heart shaped", "long pointed", "podium-like", "pointed", "rounded", "short pointed", "squared", "straight", "tower-like", "zig-zagged", "angular shaped", "upwards curving", "horn-like cornered", "inward curving cornered", "inward curving sided", "outward curving cornered", "outward curving sided", "sharp, inwards curving cornered", "sharp, inwards pointing cornered", "sharp, outwards curving cornered", "sharp, outwards pointing cornered", "talon-like cornered"];

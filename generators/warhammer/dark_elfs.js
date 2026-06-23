@@ -1,4 +1,6 @@
 function generator$warhammer$dark_elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["c", "d", "g", "k", "l", "m", "n", "q", "r", "t", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ou", "au"];
 	var nm3 = ["c", "cc", "cr", "ch", "g", "gh", "gr", "gn", "k", "kh", "kr", "kk", "kz", "l", "ll", "lk", "lc", "lg", "n", "nn", "nk", "r", "rv", "rk", "rc", "rg", "rz", "rl", "tr", "th", "vr", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v"];

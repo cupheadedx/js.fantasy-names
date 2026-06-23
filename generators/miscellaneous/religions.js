@@ -1,4 +1,6 @@
 function generator$miscellaneous$religions() {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["A", "Ar", "Al", "B", "Br", "Bl", "C", "Cr", "Cl", "D", "Dl", "Dr", "E", "Er", "El", "F", "Fl", "G", "Gl", "Gr", "H", "I", "Il", "J", "K", "Kl", "Kr", "L", "M", "N", "O", "Or", "Ol", "P", "Pl", "Ph", "Pr", "R", "S", "Sl", "Str", "T", "Tr", "U", "Ur", "Ul", "V", "Vr", "W", "Wr", "X", "Z"];
 	var names2 = ["a", "e", "i", "o", "u", "y"];
 	var names3 = ["b", "br", "bl", "c", "cr", "cl", "d", "dl", "dr", "f", "fl", "g", "gl", "gr", "h", "j", "k", "kl", "kr", "l", "m", "n", "p", "pl", "ph", "pr", "r", "s", "sl", "str", "t", "tr", "v", "vr", "w", "wr", "x", "z", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "z", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];

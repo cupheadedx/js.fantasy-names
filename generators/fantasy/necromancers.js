@@ -1,4 +1,6 @@
 function generator$fantasy$necromancers(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var namesFemale = ["bea", "betha", "brix", "cia", "cilia", "dira", "dita", "gami", "ghana", "grid", "hilde", "len", "lian", "lya", "mira", "mish", "mona", "mura", "ness", "peste", "pris", "reas", "reda", "ren", "ress", "rina", "ris", "roti", "rotia", "selm", "sin", "tulah", "vana", "vash", "ven", "verra", "viah", "vris", "xaura", "zaen"];
 	var namesMale = ["brum", "cular", "dan", "dhur", "dulus", "dum", "gan", "ghor", "grim", "kai", "kar", "khar", "kras", "lak", "lazar", "lekai", "los", "mien", "mon", "pent", "qir", "qur", "rael", "rius", "row", "thik", "thum", "tic", "vok", "vras", "xir", "xius", "xor", "zad", "zar", "zhar", "zhul", "zis", "zius", "zor"];
 	var namesNeutral = ["baem", "bres", "brix", "cix", "crux", "dhir", "dhos", "drem", "drex", "drim", "ghrin", "laer", "leki", "mek", "min", "mirn", "morn", "nirn", "noth", "nus", "peth", "prix", "qis", "qrax", "shis", "thas", "thes", "thir", "tos", "war", "with", "wix", "xas", "xhin", "xiem", "xis", "xith", "yor", "zael", "zis"];

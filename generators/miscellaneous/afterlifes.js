@@ -1,4 +1,6 @@
 function generator$miscellaneous$afterlifes(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm2 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "z", "ch", "sh", "ph"];
 	var nm3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ea", "io", "ae", "eo"];

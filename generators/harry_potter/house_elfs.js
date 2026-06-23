@@ -1,4 +1,6 @@
 function generator$harry_potter$house_elfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "Z"];
 	var nm2 = ["oo", "a", "o"];
 	var nm3 = ["", "d", "n", "r", "l", "b", "k"];

@@ -1,4 +1,6 @@
 function generator$descriptions$school_uniforms() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["straight", "striped", "lined", "finely striped", "thickly striped", "plain", "checkered", "loose fitting", "narrow fitting"];
 	var nm2 = ["Dacron", "cotton", "nylon", "polycotton", "polyester", "cotton", "nylon"];
 	var nm3 = ["down to about their calves and thus reveal", "down to just above", "down to just under their knees, clearly revealing", "down to just above their ankles and reveal", "all the way down and partially cover", "down to well below their knees and clearly reveal"];

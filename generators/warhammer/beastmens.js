@@ -1,4 +1,6 @@
 function generator$warhammer$beastmens() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "d", "g", "gh", "k", "kn", "kh", "m", "n", "t", "th", "v", "z", "zh"];
 	var nm2 = ["a", "o", "u", "a", "o", "u", "a", "o", "u", "a", "o", "u", "a", "o", "u", "e", "i", "e", "i", "au", "ao", "aa", "oo"];
 	var nm3 = ["cr", "cn", "cc", "cv", "cth", "g", "gh", "gth", "gd", "gdh", "k", "kh", "kz", "kk", "kr", "kt", "kth", "l", "lg", "lgh", "lgr", "ltr", "lc", "n", "ng", "nk", "nc", "r", "rr", "rz", "rg", "rk", "rkr", "rgh", "rth", "zr", "zg", "zc", "zk", "zz"];

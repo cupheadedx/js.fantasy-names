@@ -1,4 +1,6 @@
 function generator$descriptions$quests(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var tp = type;
 	var nm1 = ["You there", "Excuse me", "Forgive me", "Pardon me", "Please", "Please excuse me", "'Scuse me"];
 	var nm2 = ["adventurer", "hero", "traveler", "champion"];

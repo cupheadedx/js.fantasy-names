@@ -1,4 +1,6 @@
-function generator$inheritance_cycle$dwarfs(type) {﻿
+function generator$inheritance_cycle$dwarfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "br", "bl", "d", "dr", "f", "fl", "fr", "g", "gr", "h", "ht", "hv", "k", "kr", "kv", "m", "n", "r", "sk", "sv", "th", "thr", "v"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "û", "ó", "é", "á", "î", "â", "ei", "ie", "eo"];
 	var nm3 = ["d", "dg", "dr", "fn", "g", "gn", "gd", "gm", "k", "kr", "kksv", "kn", "km", "ldh", "ldhr", "lm", "m", "mm", "mn", "nd", "ndf", "nn", "nndr", "r", "rd", "rg", "rgh", "rh", "rm", "rr", "s", "st", "th", "thg", "thm", "v", "w"];

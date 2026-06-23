@@ -1,4 +1,6 @@
 function generator$star_wars$mon_calamaris(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "c", "ch", "cr", "d", "dr", "f", "g", "gh", "gr", "h", "j", "jh", "k", "kr", "l", "m", "mx", "n", "p", "q", "r", "s", "sh", "t", "tr", "v", "vc", "vr", "y"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa", "oo", "ee", "oe", "io", "ua", "ae", "oa", "ie", "ai", "uu", "ea"];
 	var nm3 = ["b", "br", "c", "ck", "ckd", "ckl", "ckr", "dr", "fw", "g", "ggr", "h", "hd", "j", "k", "kb", "kk", "kl", "km", "l", "lb", "lbr", "ld", "lk", "lkph", "ll", "lm", "lp", "lsp", "lt", "ly", "m", "mb", "mbr", "mck", "mm", "n", "nd", "ndl", "ng", "nk", "nl", "nq", "ns", "ph", "r", "rb", "rch", "rg", "rl", "rn", "rpf", "rr", "rsh", "rt", "s", "sf", "shn", "ss", "t", "th", "tr", "tt", "vr", "x", "xl", "yg", "z", "zl"];

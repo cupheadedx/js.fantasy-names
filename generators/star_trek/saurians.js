@@ -1,4 +1,6 @@
 function generator$star_trek$saurians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "d", "g", "j", "k", "kr", "m", "n", "pl", "r", "st", "t", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["g", "gz", "ggt", "j", "k", "kz", "kr", "km", "l", "m", "mz", "nz", "n", "nn", "r", "rr", "rk", "rd", "t", "tg", "tk", "zk", "zr", "zg", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z"];

@@ -1,4 +1,6 @@
 function generator$descriptions$backstorys(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["He", "he", "his", "him", "man"];
 	var nm2 = ["adventurous", "affectionate", "analytical", "athletic", "brave", "calm", "capable", "charismatic", "charming", "cheerful", "creative", "curious", "daring", "dedicated", "dependable", "determined", "driven", "dutiful", "eager", "elegant", "energetic", "faithful", "funny", "generous", "gentle", "happy", "helpful", "honest", "hospitable", "humble", "humorous", "innocent", "intelligent", "intrepid", "jovial", "just", "light-hearted", "loyal", "modest", "mysterious", "polite", "popular", "proud", "quick", "reliable", "responsible", "savvy", "sensitive", "sincere", "sweet", "talkative", "thoughtful", "whimsical", "wise", "witty"];
 	var nm3 = ["anxious", "arrogant", "bewildered", "bossy", "conceited", "confused", "facetious", "foolish", "greedy", "grouchy", "harsh", "ignorant", "immature", "impatient", "impulsive", "jealous", "lonely", "mean", "naive", "nervous", "opinionated", "pompous", "rash", "restless", "rude", "selfish", "snobbish", "stubborn", "timid", "uncontrolled"];

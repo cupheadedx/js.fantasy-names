@@ -1,4 +1,6 @@
 function generator$places$museums() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm2 = ["Centre", "Centre", "Center", "Center", "Exhibition", "Gallery", "Gallery", "Hall", "Hall", "Institute", "Institution", "Museum", "Museum", "Museum", "Treasury", "Vault"];
 	var nm3 = ["National", "International", "Grand", "Great", "Central", "Royal", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 

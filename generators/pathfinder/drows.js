@@ -1,4 +1,6 @@
 function generator$pathfinder$drows(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "br", "bh", "c", "dh", "dr", "f", "g", "gr", "gh", "j", "k", "kr", "kh", "m", "n", "ph", "q", "r", "s", "t", "v", "w", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "y", "io", "ae", "ou", "ie", "ui", "yi", "ey"];
 	var nm3 = ["bn", "bs", "bz", "c", "cn", "cm", "cr", "dr", "dn", "g", "gn", "gv", "gg", "k", "kr", "kz", "kn", "kq", "l", "lf", "lm", "lr", "lq", "lc", "lv", "m", "mm", "mr", "mz", "ml", "mdr", "n", "ndr", "nd", "nz", "nc", "nq", "r", "rc", "rn", "rr", "rz", "rdr", "rq", "t", "tr", "v", "vr", "vdr"];

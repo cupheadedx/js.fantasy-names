@@ -1,4 +1,6 @@
 function generator$descriptions$castles() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen"];
 	var nm2 = ["broad", "lean", "massive", "narrow", "skinny", "slim", "solid", "strong", "thick", "thin"];
 	var nm3 = ["round", "square"];

@@ -1,4 +1,6 @@
 function generator$pathfinder$fetchlings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "br", "dr", "gr", "j", "m", "n", "q", "qr", "r", "s", "tr", "x", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["c", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "z"];

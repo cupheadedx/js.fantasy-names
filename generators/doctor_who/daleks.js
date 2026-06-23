@@ -1,4 +1,6 @@
 function generator$doctor_who$daleks() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["C", "Ch", "D", "Dh", "G", "Gh", "K", "Kh", "R", "S", "Th", "V"];
 	var nm2 = ["a", "aa", "e", "a", "e", "a", "e", "i", "o"];
 	var nm3 = ["c", "d", "k", "m", "n", "r", "s", "ss", "st", "t", "th", "y"];

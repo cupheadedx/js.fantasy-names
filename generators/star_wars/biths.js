@@ -1,4 +1,6 @@
 function generator$star_wars$biths(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["d", "d'r", "f", "f't", "g", "g'h", "h", "j", "k", "ph", "ph't", "r", "th"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oo", "eu", "ia", "aa"];
 	var nm3 = ["b", "bb", "c", "cr", "d", "dd", "g", "gr", "h", "k", "kr", "l", "lk", "ll", "mk", "m", "n", "nk", "p", "pp", "r", "z"];

@@ -1,4 +1,6 @@
 function generator$warhammer$lizardmens() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm = ["c", "cr", "ch", "g", "h", "kr", "m", "n", "q", "qr", "t", "tl", "x", "xlt", "y", "z"];
 	var nm1 = ["", "", "", "", "", "c", "cr", "ch", "g", "h", "kr", "m", "n", "q", "qr", "t", "tl", "x", "xlt", "y", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oa", "aui", "a'u", "o'e", "o'a", "u'a", "a'e", "e'a"];

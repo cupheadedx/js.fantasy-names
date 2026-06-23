@@ -1,4 +1,6 @@
 function generator$fantasy$wizards(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", ""];
 	var nm2 = ["b", "br", "c", "cr", "d", "dr", "g", "gr", "j", "k", "kr", "kn", "p", "pr", "q", "qr", "r", "st", "str", "t", "tr", "v", "vr", "w", "x", "z", "", "", "", "", "", "", "", "", "", "", ""];
 	var nm3 = ["a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u"];

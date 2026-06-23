@@ -1,4 +1,6 @@
 function generator$star_wars$weequays(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "c", "ch", "d", "f", "g", "gr", "gw", "h", "j", "k", "kr", "l", "m", "n", "p", "pl", "pr", "q", "s", "sh", "t", "tr", "v", "w", "y"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "a", "o", "u", "ia", "ie", "ea", "ei", "ee", "aa", "ai"];
 	var nm3 = ["-m", "-n", "-h", "-l", "-v", "b", "b-r", "bl", "b-d", "b-z", "d", "d-r", "d-z", "dl", "ds", "dd", "g", "g-r", "gg", "gr", "gd", "gl", "h", "j", "k-b", "k-r", "kd", "k-z", "kn", "kr", "kb", "km", "l", "ll", "ln", "m", "mb", "nm-b", "mr", "n-d", "nd", "nl", "nn", "ns", "r", "r-z", "r-b", "r-g", "r-d", "rg", "rr", "rs", "rt", "s-d", "s-b", "s-l", "s-g", "t", "tt", "v", "z"];

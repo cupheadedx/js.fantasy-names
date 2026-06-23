@@ -1,4 +1,6 @@
 function generator$doctor_who$sontarans() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Br", "D", "Dr", "Gr", "J", "K", "Kr", "L", "N", "M", "S", "Sk", "Sn", "St", "T", "Tr", "V", "Vr"];
 	var nm2 = ["a", "e", "i", "o", "u", "y", "aa", "ee"];
 	var nm3 = ["g", "gg", "gt", "gh", "k", "kt", "kk", "l", "ll", "nt", "nx", "r", "rl", "rr", "rk", "rn", "rg", "sk"];

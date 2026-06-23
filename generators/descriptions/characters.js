@@ -1,8 +1,12 @@
 function generator$descriptions$characters(type) {
+	i = Math.floor(Math.random() * 10);
+
 	return type === 1 ? generator$descriptions$charactersFemale() : generator$descriptions$charactersMale();
 }
 
 function generator$descriptions$charactersMale() {
+	i = Math.floor(Math.random() * 10);
+
 		var names1 = ["Black", "Gray", "White", "Blonde", "Brown", "Red", "Ginger", "Chestnut", "Silver"];
 		var names2 = ["short hair", "short spiky hair", "short bristly hair", "well groomed hair", "crinkly hair", "sleek hair", "flowing hair", "shaggy hair", "well groomed hair", "long hair", "curly hair", "straight hair", "wavy hair", "frizzy hair", "coily hair", "long hair", "curly hair", "straight hair", "wavy hair", "frizzy hair", "coily hair", "dreadlocks", "shoulder-length hair"];
 		var names3 = ["hangs over", "slightly reveals", "tight in a ponytail reveals", "gently hangs over", "slightly covers", "almost fully covers", "clumsily hangs over", "awkwardly hangs over", "neatly coiffured to reveal", "is pulled back to reveal"];
@@ -155,6 +159,8 @@ function generator$descriptions$charactersMale() {
 	}
 
 function generator$descriptions$charactersFemale() {
+	i = Math.floor(Math.random() * 10);
+
 	var names1 = ["Black", "Gray", "White", "Blonde", "Brown", "Red", "Ginger", "Chestnut", "Silver"];
 	var names2 = ["short hair", "short curly hair", "short layered hair", "well groomed hair", "crinkly hair", "sleek hair", "flowing hair", "shaggy hair", "well groomed hair", "long hair", "curly hair", "straight hair", "wavy hair", "frizzy hair", "coily hair", "short hair", "long hair", "curly hair", "straight hair", "wavy hair", "frizzy hair", "coily hair", "dreadlocks", "hip-length hair", "shoulder-length hair"];
 	var names3 = ["hangs over", "slightly reveals", "braided to reveal", "double braided to reveal", "tight in a bun reveals", "tight in a ponytail reveals", "gently hangs over", "slightly covers", "almost fully covers", "clumsily hangs over", "awkwardly hangs over", "neatly coiffured to reveal", "is pulled back to reveal"];

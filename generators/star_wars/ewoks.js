@@ -1,4 +1,6 @@
 function generator$star_wars$ewoks(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "b", "ch", "c", "d", "gr", "g", "k", "kr", "l", "m", "n", "p", "r", "t", "tr", "w"];
 	var nm2 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "ee", "oo", "aa", "y"];
 	var nm3 = ["b", "ck", "d", "dr", "gr", "gl", "g", "k", "kk", "l", "ll", "m", "n", "pl", "rf", "rp", "rph", "rr", "st", "str"];

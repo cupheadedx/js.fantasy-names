@@ -1,4 +1,6 @@
 function generator$mass_effect$quarians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var names2 = ["a", "e", "i", "o", "u", "aa", "ee", "ae"];
 	var names5 = ["C", "F", "H", "G", "J", "L", "M", "N", "R", "S", "Sh", "V", "T", "W", "X", "Y", "Z"];
 	var names6 = ["dal", "dda", "dor", "fal", "fin", "for", "gar", "l", "la", "lan", "las", "lin", "ll", "llo", "lon", "lun", "m", "ma", "man", "mas", "me", "min", "mis", "mm", "mma", "mor", "mos", "mun", "n", "nar", "nis", "nn", "nna", "r", "ra", "rah", "ram", "ras", "ris", "rol", "rrel", "rul", "s", "sa", "sal", "sar", "ss", "sul", "zh", "zu"];

@@ -1,4 +1,6 @@
 function generator$star_wars$toydarians(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "d", "dr", "f", "g", "gl", "k", "l", "m", "n", "p", "q", "r", "t", "v", "w", "z", "zl"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oo", "ua", "uu", "ue", "ey", "oy"];
 	var nm3 = ["b", "bb", "d", "dd", "f", "g", "gg", "ll", "m", "mg", "mr", "mt", "n", "ng", "nd", "nk", "nm", "pp", "r", "rg", "rd", "rf", "rp", "rr", "rt", "ssc", "ss", "sg", "sc", "st", "t", "tt", "tw"];

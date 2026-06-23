@@ -1,4 +1,6 @@
 function generator$pop_culture$lovecraftians() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "e", "i", "u", "o", "a", "ai", "aiu", "aiue", "e", "i", "ia", "iau", "iu", "o", "u", "y", "ya", "yi", "yo"];
 	var nm2 = ["bh", "br", "c'th", "cn", "ct", "cth", "cx", "d", "d'", "g", "gh", "ghr", "gr", "h", "k", "kh", "kth", "mh", "mh'", "ml", "n", "ng", "sh", "t", "th", "tr", "v", "v'", "vh", "vh'", "vr", "x", "z", "z'", "zh"];
 	var nm3 = ["a", "e", "i", "u", "o", "a", "e", "i", "u", "o", "ao", "aio", "ui", "aa", "io", "ou", "y"];

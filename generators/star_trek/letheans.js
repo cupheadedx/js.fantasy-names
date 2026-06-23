@@ -1,4 +1,6 @@
 function generator$star_trek$letheans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "g", "j", "k", "l", "m", "n", "q", "r", "s", "t", "tr", "v", "z", "", ""];
 	var nm2 = ["oi", "ao", "ui", "ei", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
 	var nm3 = ["b", "c", "d", "g", "j", "k", "l", "m", "n", "p", "q", "r", "t", "v", "z", "b", "bb", "bt", "cz", "c", "d", "dl", "dz", "g", "gr", "j", "k", "kz", "kl", "kr", "l", "lt", "lv", "m", "nj", "nb", "n", "nth", "p", "q", "qr", "r", "rr", "rrn", "rn", "t", "tt", "v", "vv", "z", "zz", "ztr", "zm"];

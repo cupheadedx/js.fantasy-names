@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$zoras(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "h", "j", "k", "m", "n", "p", "t", "v", "z"];
 	var nm2 = ["a", "i", "o", "e"];
 	var nm3 = ["j", "k", "l", "p", "r", "t", "v"];

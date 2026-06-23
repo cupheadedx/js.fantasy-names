@@ -1,4 +1,6 @@
 function generator$the_witcher$dwarfs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "bl", "br", "c", "cr", "d", "dh", "f", "fl", "g", "gr", "j", "k", "kr", "l", "m", "p", "r", "rh", "shr", "sk", "sh", "th", "t", "v", "w", "x", "y", "z", "zh"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ie", "au", "ia", "ei", "ou"];
 	var nm3 = ["c", "cc", "cr", "d", "dh", "dr", "g", "gg", "gm", "gn", "h", "l", "lc", "ld", "lfl", "lk", "ll", "lm", "lr", "lt", "m", "mm", "mn", "n", "nb", "nc", "nd", "nn", "nr", "nt", "r", "rb", "rcl", "rd", "rg", "rl", "rm", "rn", "rp", "rt", "rth", "s", "sc", "sr", "st", "v", "ym", "z"];

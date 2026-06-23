@@ -1,4 +1,6 @@
 function generator$doctor_who$ice_warriors() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["h", "gr", "g", "gl", "k", "kr", "kl", "r", "sk", "sl", "ss", "sr", "sz", "v", "vr", "xz", "x", "xr", "xzn", "z"];
 	var nm2 = ["a", "i", "o", "e", "aa", "a", "u", "a", "y", "a"];
 	var nm3 = ["d", "dr", "kss", "ld", "m", "nt", "r", "rt", "rd", "rn", "rg", "sb", "sr", "sz", "szr", "zr", "ssb", "x", "xl", "z", "zd"];

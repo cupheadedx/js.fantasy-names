@@ -1,4 +1,6 @@
 function generator$descriptions$fancy_clothings(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["covers her shoulders halfway", "covers her shoulders entirely", "covers her shoulders almost fully", "covers her shoulders only barely with 2 spaghetti straps", "leaves the top of her shoulders uncovered, but does cover the sides", "leaves her shoulders mostly uncovered", "leaves her shoulders uncovered, instead it's supported around her neck", "covers just one of her shoulders, leaves the other uncovered", "covers only a small portion of her shoulders"];
 	var nm2 = ["an elegant", "a graceful", "a stylish", "a delicate", "a simple", "a modest", "a fancy", "a beautiful", "a tasteful"];
 	var nm3 = ["Queen Anne neckline", "court neckline", "cowl neckline", "draped neckline", "halter neckline", "jewel neckline", "keyhole neckline", "plunging neckline", "round neckline", "scoop neckline", "semi-sweetheart neckline", "square neckline", "sweetheart neckline", "v-neck"];

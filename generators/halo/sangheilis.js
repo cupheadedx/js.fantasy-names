@@ -1,4 +1,6 @@
 function generator$halo$sangheilis(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "f", "gr", "j", "k", "kh", "l", "mr", "n'th", "r", "rt", "s", "t", "th", "v", "x", "z", "", ""];
 	var nm2 = ["a", "e", "i", "o", "u", "y"];
 	var nm3 = ["da", "do", "g", "ga", "ha", "ka", "kan", "ko", "l", "la", "pa", "po", "r", "ra", "re", "ro", "s", "sa", "san", "so", "sze", "t", "ta", "tan", "to", "va", "vo", "vu", "za", "ze", "zo"];

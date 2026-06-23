@@ -1,4 +1,6 @@
 function generator$destiny$hives(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "cr", "d", "g", "gr", "k", "kr", "m", "n", "r", "s", "tr", "z"];
 	var nm2 = ["a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "oo"];
 	var nm3 = ["c", "cr", "gr", "k", "kr", "m", "n", "nd", "r", "rd", "rg", "rn", "rv", "rz", "t", "tr", "v", "z"];

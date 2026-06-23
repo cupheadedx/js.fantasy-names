@@ -1,4 +1,6 @@
 function generator$dungeon_and_dragons$humans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	/* Calashite */
 	var nm1 = ["", "", "b", "bh", "f", "h", "j", "kh", "m", "n", "nh", "r", "rh", "s", "z"];
 	var nm2 = ["a", "e", "u", "a", "e", "u", "a", "e", "u", "i", "ei"];

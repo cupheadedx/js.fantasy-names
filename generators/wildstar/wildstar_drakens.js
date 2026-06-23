@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_drakens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "d", "g", "h", "j", "k", "m", "n", "r", "v", "z"];
 	var nm2 = ["a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "aa", "ua", "ia", "uu"];
 	var nm3 = ["c", "cr", "dr", "g", "gg", "gr", "gh", "k", "kr", "kk", "l", "n", "nk", "ng", "q", "r", "rr", "rk", "rg", "rq", "v", "vr", "vh", "z", "zg", "c", "g", "k", "l", "n", "q", "r", "v", "z", "c", "g", "k", "l", "n", "q", "r", "v", "z", "c", "g", "k", "l", "n", "q", "r", "v", "z", "c", "g", "k", "l", "n", "q", "r", "v", "z"];

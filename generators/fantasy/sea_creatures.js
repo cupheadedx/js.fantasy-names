@@ -1,4 +1,6 @@
 function generator$fantasy$sea_creatures() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["B", "Bl", "Cr", "Ch", "G", "Gl", "Gr", "H", "J", "K", "Kr", "L", "M", "S", "Sc", "Tr", "Z"];
 	var nm2 = ["o", "a", "a", "o", "e", "i", "u", "y"];
 	var nm3 = ["bd", "bs", "dr", "gl", "gn", "gm", "gr", "k", "kr", "kl", "ll", "nd", "nr", "ng", "r", "rg", "rk", "rc", "sc", "st", "sk", "sh", "tr", "th", "q", "z"];

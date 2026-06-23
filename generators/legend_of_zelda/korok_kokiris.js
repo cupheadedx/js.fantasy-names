@@ -1,4 +1,6 @@
 function generator$legend_of_zelda$korok_kokiris(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "b", "d", "br", "dr", "gr", "g", "h", "k", "l", "m", "r", "tr", "t"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["c", "g", "gn", "gm", "k", "kl", "l", "v", "ld", "lm", "ll", "m", "md", "n", "nd", "r", "rn", "s", "sn", "sm", "sr"];

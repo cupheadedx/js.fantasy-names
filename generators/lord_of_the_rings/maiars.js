@@ -1,4 +1,6 @@
-function generator$lord_of_the_rings$maiars(type) {﻿
+function generator$lord_of_the_rings$maiars(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["f", "l", "m", "n", "ph", "s", "sh", "w", "y", "z", "", ""];
 	var nm2 = ["a", "e", "o", "i", "u", "ó", "é", "ie", "ui", "ia", "ea", "ae", "ua"];
 	var nm3 = ["l", "lm", "ln", "ls", "n", "nn", "ph", "r", "s", "sh", "ss", "th"];

@@ -1,4 +1,6 @@
 function generator$halo$unggoys() {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["a", "i", "u"];
 	var nm2 = ["d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];
 	var nm3 = ["fl", "kl", "sl", "sm", "pl", "zl", "d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];

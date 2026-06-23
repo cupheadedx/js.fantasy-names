@@ -1,4 +1,6 @@
 function generator$wildstar$wildstar_mecharis(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "c", "d", "gl", "h", "l", "m", "p", "pr", "r", "s", "t", "tr", "v", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "io", "au", "ei"];
 	var nm3 = ["c", "cr", "chr", "ct", "g", "gn", "gz", "kr", "kt", "kx", "kn", "l", "lb", "ll", "mph", "n", "ph", "pr", "ps", "r", "rx", "rc", "rct", "rm", "rv", "rz", "st", "sp", "t", "tr", "v", "x", "xt", "c", "g", "l", "n", "r", "t", "v", "x"];

@@ -1,4 +1,6 @@
 function generator$military$royal_navy() {
+	i = Math.floor(Math.random() * 10);
+
 	var names = ["Apples", "Butter", "Charlie", "Duff", "Edward", "Freddy", "George", "Harry", "Ink", "Johnnie", "King", "London", "Monkey", "Nuts", "Orange", "Pudding", "Queenie", "Robert", "Sugar", "Tommy", "Uncle", "Vinegar", "Willie", "Xerxes", "Yellow", "Zebra"];
 
 	var r1 = Math.floor(Math.random() * names.length);

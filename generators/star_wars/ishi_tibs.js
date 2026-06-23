@@ -1,4 +1,6 @@
 function generator$star_wars$ishi_tibs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "c", "g", "gr", "h", "j", "k", "m", "n", "q", "r", "s", "sh", "t", "th", "v", "w", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "uu", "ue", "ia", "ie", "ui", "ua", "aa", "ee"];
 	var nm3 = ["br", "bl", "b", "g", "gg", "gr", "ht", "hk", "hr", "hz", "k", "kz", "kr", "kl", "km", "kn", "l", "ll", "lz", "lr", "lb", "lg", "lt", "m", "mb", "ml", "mk", "mr", "mz", "n", "nn", "ng", "nr", "nk", "nl", "nt", "nz", "pl", "pr", "pz", "r", "rl", "rg", "rk", "rm", "rn", "rt", "rz", "t", "tch", "tl", "zk", "zl", "zr"];

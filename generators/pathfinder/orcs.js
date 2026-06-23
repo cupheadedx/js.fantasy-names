@@ -1,4 +1,6 @@
 function generator$pathfinder$orcs(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "b", "br", "c", "cr", "dr", "f", "gr", "h", "kr", "kz", "m", "n", "pr", "r", "t", "tr", "v", "vr"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["b", "br", "bd", "bz", "d", "dd", "dr", "dz", "g", "gh", "gr", "gn", "gz", "k", "kk", "kd", "kz", "kn", "l", "ld", "lkz", "ll", "lz", "lr", "lg", "lk", "m", "mg", "mz", "mr", "n", "ng", "nr", "nk", "r", "rd", "rk", "rn", "rr", "rg", "rz", "rv", "s", "sr", "sk", "sg", "sc", "v", "vr", "vk", "vz", "z", "zr", "zk", "zn", "zm", "zc"];

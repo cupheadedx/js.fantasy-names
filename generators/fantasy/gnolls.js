@@ -1,4 +1,6 @@
 function generator$fantasy$gnolls(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "br", "d", "dr", "g", "gr", "gh", "gn", "k", "kh", "kr", "m", "r", "rr", "t", "th", "tr", "thr", "v", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "y", "y", "aa", "ei", "ia", "ou", "ua", "uo"];
 	var nm3 = ["br", "g", "gr", "gn", "gl", "gz", "gv", "gg", "grr", "ghr", "hr", "hg", "kz", "kr", "kn", "kz", "kk", "lg", "lz", "lk", "lr", "mk", "mm", "mr", "ng", "nr", "ngr", "ndr", "nk", "nkr", "r", "rr", "rg", "rgr", "rk", "rkr", "x", "xx", "v", "vk", "vg", "zg", "zz", "zr"];

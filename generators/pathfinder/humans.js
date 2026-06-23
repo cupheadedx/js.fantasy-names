@@ -1,4 +1,6 @@
 function generator$pathfinder$humans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	/* Kellid */
 	var nm1 = ["b", "br", "d", "dr", "g", "k", "kr", "p", "pr", "q", "r", "str", "t", "tr", "v"];
 	var nm2 = ["a", "e", "i", "o", "u"];

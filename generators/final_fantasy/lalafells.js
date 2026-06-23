@@ -1,4 +1,6 @@
 function generator$final_fantasy$lalafells(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "y", "ch", "sh"];
 	var nm2 = ["a", "e", "i", "o", "u"];
 	var nm3 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "y", "ch", "sh"];

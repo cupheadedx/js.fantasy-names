@@ -87,6 +87,6 @@
 	"homepage": "https://github.com/cupheadedx/js.fantasy-names#readme",
 	"devDependencies": {
 		"chai": "^3.5.0",
-		"mocha": "^3.1.2"
+		"mocha": "^11.7.6"
 	}
 }

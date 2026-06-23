@@ -1,4 +1,6 @@
 function generator$star_wars$sullustans(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var nm1 = ["", "", "", "", "", "", "b", "bl", "br", "c", "d", "dl", "dw", "f", "fr", "g", "gr", "h", "j", "k", "kr", "l", "m", "n", "p", "q", "r", "s", "t", "tr", "v", "w", "x", "z"];
 	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "eo", "ie", "uu", "ea", "ee", "ia", "ao", "ue", "ae", "ay", "y", "ii", "ei", "iu", "ui", "oo", "ua", "yu"];
 	var nm3 = ["b", "bb", "br", "d", "dm", "fr", "g", "ggl", "gl", "hs", "j", "kk", "l", "ll", "llr", "lth", "m", "md", "n", "nb", "nch", "nd", "ng", "nn", "nr", "pl", "r", "rg", "rk", "rl", "rn", "rr", "rth", "rw", "shr", "ss", "st", "t", "th", "w", "xt", "z"];

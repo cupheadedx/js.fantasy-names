@@ -1,4 +1,6 @@
 function generator$dungeon_and_dragons$wildens(type) {
+	i = Math.floor(Math.random() * 10);
+
 	var namesMaleFf = ["Ban", "Bar", "Dal", "Dam", "Dun", "Dur", "Fas", "Fin", "Kan", "Kin", "Kor", "Lan", "Lim", "Lon", "Man", "Mar", "Mas", "Mid", "Mor", "Mur", "Nam", "Nor", "Rad", "Ran", "Ras", "Rod", "San", "Sin", "Tor", "Tum"];
 	var namesMaleFl = ["darras", "darris", "dommar", "donnir", "durrun", "farran", "fidden", "garron", "kammin", "karran", "lammir", "larrin", "mannor", "marden", "mennar", "mennor", "mindin", "mirron", "morrin", "murrin", "norren", "norten", "rammas", "sammas", "sannim", "sarrin", "sarris", "sorran", "tarrin", "torrin"];
 	var namesMaleSf = ["Barrun", "Burrin", "Darras", "Farran", "Farrin", "Fidden", "Garrin", "Harren", "Harrun", "Karrat", "Karren", "Ketten", "Korrin", "Larras", "Lommir", "Lorrin", "Marrad", "Mirren", "Mirrun", "Morrin", "Parran", "Purren", "Tarris", "Torren", "Torrim", "Turrus", "Venner", "Vunnar", "Zakkan", "Zarrak"];
