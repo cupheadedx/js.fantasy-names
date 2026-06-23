@@ -1,0 +1,22 @@
+
+var br ="";
+
+function nameGen(type){
+	var nm1 = ["Adda Miration","Adelle Lectible","Adelle Light","Adelle Lirious","Alison Wonder","Amie Thyst","Amie Zonite","Angela Develle","Anna Conda","Anne Amaley","Annie Nigma","Aria Hymn","Aria Viderci","Aroa Mattic","Aster Starr","Aura Aurora","Aura Ley","Aurora Dorea","Barba Rouse","Bea Constrictor","Bella Lush","Bellatrix Bouquet","Belle Icoza","Belle Ligerrente","Betty Brilliance","Bo Deysious","Carol Chorale","Cecil Clouds","Cecil Sunshine","Celeste Booday","Chichi Swank","Claire Geeman","Claire Rickal","Claire Voyance","Cleo Patrix","Clover Peytal","Connie Fidence","Corra Rageous","Daye Light","Deedee Cation","Deedee Sign","Dianne Gerous","Didi Divine","Diemme Monds","Dorothy Doughty","Dutches Dauntless","Ella Gance","Ella Gants","Ella Menterry","Ella Stique","Elle Lectrick","Elle Lure","Emma Geddon","Emma Gination","Emma Phasis","Emma Rald","Emme Plosion","Emme Pulse","Emme Vention","Enna Fincible","Enna Sidius","Enne Phinite","Enne Treppide","Etha Nitty","Etha Reyal","Euphoria Bliss","Eva Nessent","Eva Siff","Eve Forric","Eve Ningowne","Eve Ville","Faith Lesse","Faschia Nation","Faye Boulous","Faye Lacious","Faye Minine","Faye Nixx","Felicity Spice","Freya Domme","Gal Gallant","Gal Galore","Gal Lante","Gemma Safir","Gena Rocity","Genna Russ","Gigi Lamour","Gigi Rand","Glemma Rouss","Grace Iyus","Haye Light","Hazel Nutt","Hella Billy","Hella Centrique","Hella Cious","Hella Riouss","Hella Whole","Hellen Back","Herra Zee","Ina Creddeble","Ina Fernalle","Ineva Tibble","Irma Gination","Jo Nee","Jo Phial","Joye Ryde","Jue Cee","Jue Wells","Juju Bee","Kaia Cayenne","Kaye Bye","Kitsch Kitsch Bang Bang","Lady Lace","Lavish Lazuli","Laye Lo","Lea Ness","Leye Berty","Lisse Truss","Liv Lee","Lola Lavish","Lolo Yaltie","Lucy Fur","Lucy Luck","Lulu LaBye","Lulu Xuri","Lunaye Clipse","Lyra Kall","Maggie Magma","Mara Bells","Marry Golds","Marry Nayde","Marry Sipan","Marve Vellus","Mary Ganal","Mary Malade","May Jestic","May Lancholly","May Licious","May Lodi","May Morable","May Stirius","May Varlous","Melody Gale","Melody Toune","Miss Adora","Miss Alure","Miss Chieff","Miss Elto","Miss Fortune","Miss Mash","Miss Mood","Miss Nomer","Miss Sanguine","Miss Sublime","Mistress Galore","Monique Mystique","Morgan Fatana","Nashay Kitt","Naye Buloos","Nicole Lorful","NoÃ« Stalgia","Ora Kelle","Ora Nate","Patty Siyens","Penny Dora","Penny Laized","Penny Ramma","Penny Rammic","Penny Talloons","Percey Ferance","Perry Fomance","Phara Waye","Phata Morgana","Pho Latyle","Pho Lume","Phoebe Rant","Phoenix Bright","Pippa Pepper","Pippa Pizazz","Polly Tickle","Poppy Corn","Poppy Cox","Poppy Domm","Poppy Larr","Poppy Lerry","Poppy Sickles","Portia Bella","Portia Moniuss","Portia Nette","Pria Marry","Pria Steegious","Pria Steen","Prissa Teen","Raye Bitt","Raye Diante","Raye Nessance","Raye Storm","Remi Nissent","Rey Mantique","Rey Markeble","Rey Moorse","Rey Torric","Rococo Jazz","Roma Ence","Rose Bouquet","Rose Budd","Ruby Redd","Ruby Ree","Ruth Lezz","Sall Laikeen","Sall Lay","Sally Ness","Sam Armie","Sam Ooth","Sara Castique","Sara Donique","Sara Penth","Sarah Pentine","Sarah Reen","Sasha Sass","Satty Phection","Sella Fish","Sella Stice","Selly Foxx","Senna Guinne","Senna Seer","Shia Mirring","Sia Dellic","Sia Dowe","Sia Gollogique","Sia Gothic","Siam Pathy","Silver Foxx","Siri Price","Sofie Moore","Sofie Stication","Su Blime","Sue Burben","Sue Missif","Sue Pernova","Sue Preem","Super Nova","Suse Pense","Suzu Blime","Temma Tation","Tempest Wilde","Terra Gique","Terra Putique","Thea Terre","Tiffany Stone","Tina Cious","Tina Scious","Tira Mendus","Tira Quoise","Trinity Quart","Trixie Foxx","Trixy Bunn","Tye Gress","Tye Phun","Vall Canno","Vall Iant","Vall Orous","Vanity Fairchild","Vicki Tory","Vivi Venus","Vivian Foxx","Vye Sual","Vye Vacius","Zahara Dessert"];
+	var tp = type;
+	var element = document.createElement("div");
+	element.setAttribute("id","result");
+	
+	for(i = 0; i < 10; i++){
+		rnd = Math.random() * nm1.length | 0;
+		names = nm1[rnd];
+		nm1.splice(rnd, 1);
+		br = document.createElement('br');	
+		element.appendChild(document.createTextNode(names));
+		element.appendChild(br);
+	}
+	if(document.getElementById("result")){
+		document.getElementById("placeholder").removeChild(document.getElementById("result"));
+	}		
+	document.getElementById("placeholder").appendChild(element);
+}

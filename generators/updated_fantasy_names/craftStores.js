@@ -1,0 +1,20 @@
+var br = "";
+
+function nameGen(){
+	var nm1 = ["A Change of Art","A Cool Thread","A Flair Deal","A Stitch in Time","A Wood Deal","Air of Flair","All's Flair","And Sew Forth","And Sew On","Any Stitch Way","Apothecrafty","Art Beats","Art Cookie","Art From Scratch","Art Tea","Art Ways","Art a la Carte","Art and Parcel","Art of Gold","Art of the Furniture","Artsy Fartsy","Be Sew Bold","Bear With Flair","Beautique","Beauty Embroidified","By Design","Care With Flair","Care to Flair","Celecreation","Couture Gifts","Craft Crazy","Craft Fever","Craft Machine","Craftastical","Crafter Hours","Crafter-Noon Delights","Crafterina","Crafterpeneur","Crafting Creativity","Craftopia","Crafts Foundry","Craftworks","Crafty Pleasures","Create Mate","Create Parade","Created Comforts","Creative Beat","Creative Crafts","Creative Creature","Creative Motions","Creative Scene","Creative Splash","Critter Crafts","Critter Knitter","Curio Crafts","Cute as a Button","Daily Thread","Dangly Knits","Definitely Knot","Destined to Design","Doodlecrafts","Draft to Craft","Dreamcrafts","Etched On My Art","Every Knit As Good","Fab Fabrics","Fabric Antics","Fabric Magic","First Create","Flair Play","Flair is Fair","Flair to Share","Flair to Spare","Flights of Fancy","Flying Art","For Art's Sake","For Keep's Sake","For the Most Art","From the Art","Full Seam Ahead","Giftsakes","Go With the Sew","Handy Craft","Handy Handmades","Handy Hands","Happily Ever Crafter","Happy Designs","Heart in Art","Heart to Home","Heavenly Handmade","Hot Threads","I Got Crafts","I Sew It","In Good Hands","In Stitches","In These Arts","In a Stitch","Itching for Stitching","Knit Fit","Knit Knot","Knit Picks","Knit Wit","Knit by Knit","Knit for the Gods","Knitter Critter","Knot Always","Knot Done","Knot Impossible","Knot Lost","Knot a Bit","Knotty Knitters","Make, Believe","Many Hands","My Flair Lady","Near to My Art","Needle in a Haystack","Nightcrafts","No Haste, No Waste","Of the Arts","One Little Knit","Out of the Box","Piece of My Art","Pieces of Art","Pocket Crafts","Pulse Art","Right From the Art","Robin Wood","Seam Come True","Seam On","Seam With Pride","Seam World","Seam's Right","Sew Crafty","Sew Flow","Sew It Goes","Sew It Happens","Sew Loveley","Sew Pretty","Sew Sinful","Sew Solutions","Sew and Saw","Sew and Sell","Sew and Sew","Sew of Hands","Sew the Story Goes","Sewley","Sinful Soaps","Smart Art","Snip Snap","So Far, Sew Good","Spun Fun","State of Create","Stensability","Stitch Away","Stitch Itch","Stitch-Perfect","Sum of my Arts","Sweet Craftations","Sweet Scents","Sweet Seams","Textile Aisle","Textile Smile","Textile Style","Textilophile","That's Sew Creative","The Art Bard","The Art Box","The Art Cart","The Big Ball of Yarn","The Craft Circus","The Craft Crustacean","The Craft Draft","The Craft Room","The Craft Zone","The Flair Bear","The Flair Lair","The Flairy","The More You Bow","The Needle 'n Thread","The Seam Dream","The Seam Theme","The Sew Show","The Sewing Room","The Stitch Kettle","The Stitch Witch","The Thread 'n Needle","The Unique Boutique","Thread and Buttons","Thread of Roses","Threaded Needle","Tins and Needles","To Be Flair","True Knit","Whimsical Woods","Whole Knit and Caboodle","Wildest Seams","Wood That I Could","Would Craft","You Craft What You Sew","You Imbued"];
+	var element = document.createElement("div");
+	element.setAttribute("id", "result");
+	
+	for(i = 0; i < 10; i++){
+		rnd = Math.random() * nm1.length | 0;
+		names = nm1[rnd];
+		nm1.splice(rnd, 1);
+		br = document.createElement('br');	
+		element.appendChild(document.createTextNode(names));
+		element.appendChild(br);
+	}
+	if(document.getElementById("result")){
+		document.getElementById("placeholder").removeChild(document.getElementById("result"));
+	}		
+	document.getElementById("placeholder").appendChild(element);
+}

@@ -1,0 +1,30 @@
+function nameGen(type){
+	var nm1 = ["Adamos","Alekos","Alexandros","Alexis","Alkinoos","Alparslan","Anastasios","Andonis","Andreas","Andres","Andros","Anninos","Antonakis","Argiris","Arkadios","Artem","Athanasios","Averof","Benon","Charalambos","Christo","Christodoulos","Christos","Chrysostomos","Constaninos","Constantinos","Costas","Cyprien","Dakis","Demetri","Demetris","Dervis","Efstathios","Eftihios","Ezekias","Fazil","Francis","Georgios","Giannis","Giannos","Giorgos","Glafcos","Ioakim","Ioannis","Ionas","Kostas","Kudret","Kutlay","Kyprianos","Kypros","Kyriacos","Kyriakos","Kyrillos","Lazaros","Leonidas","Leontios","Loukas","Lycourgos","Makarios","Marcos","Marios","Marius","Markos","Martino","Mehmet","Memnon","Merkouris","Michalis","Morfakis","Mustafa","Nicholas","Nicolas","Nicos","Nikolas","Nikos","Niyazi","Panagiotis","Panayiotis","Panos","Pavlos","Ploutis","Polycarpos","Prodromos","Rauf","Rodosthenis","Rodotheos","Roys","Savvas","Sophocles","Sotiris","Spyros","Stass","Stavros","Stelios","Stylianos","Symeon","Takis","Tassos","Theodoros","Tomys","Valentinos","Vassos","Victoras","Yiannakis","Yiorgos","Zeki"];
+	var nm2 = ["Ada","Konstantia","Ivi","Evridiki","Despina","Mariada","Avva","Adara","Agathy","Alcina","Alexandra","Alyssa","Amanda","Anastasia","Andronika","Androula","Androulla","Andruilla","Angela","Anna","Annita","Anthea","Argyro","Ariana","Athena","Avyi","Calia","Calista","Callia","Callidora","Cassia","Charis","Charissa","Chloe","Chrisanthy","Christina","Chrysalia","Chrysantha","Chrystalla","Constantina","Dalia","Dana","Despina","Dianthe","Elena","Eleni","Elina","Elodie","Emmeleia","Eugenia","Felicia","Florentia","Gabriella","Galatia","Georgia","Giogoula","Helena","Helene","Hera","Ianthe","Illiana","Irena","Iria","Isadora","Isavella","Isidora","Ivy","Jacinta","Jasmin","Julie","Juliet","Kalia","Kara","Karen","Katalina","Katerina","Katherine","Klelia","Kyrenia","Lillian","Loreta","Maria","Mariliza","Marina","Maryann","Melissa","Myria","Myrianthe","Nasia","Nastazia","Nyla","Panagiota","Panayiota","Pania","Penelope","Petsa","Philia","Philippa","Phoebe","Praxoula","Sapphira","Savina","Selena","Semiramis","Sevastiana","Sonia","Sophia","Sosanna","Stelia","Stephanie","Styllou","Sybil","Talia","Theodora","Vanessa","Xanthe","Zoe"];
+	var nm3 = ["Adamou","Afxentiou","Aggelidou","Alekou","Alexandrou","Anastasiades","Andreaou","Andreou","Androu","Antoniadou","Antoniakiou","Antoniou","Athanasiou","Charalambous","Christodoulides","Christodoulou","Christoforou","Christou","Constantinou","Costaou","Demetriades","Demetriou","Derviou","Dimitriou","Economou","Eleftheriou","Emilianidou","Ezekiaou","Fokaides","Georgiades","Georgiou","Gianniou","Giannou","Giorgiou","Glafcou","Hasikos","Iacovou","Iakovou","Ioannou","Joannou","Kadis","Kasoulidis","Kiriakou","Konstantinou","Kouyialis","Kyprianou","Kyprou","Kyriacou","Kyriakou","Kyrillou","Lakkotrypis","Lazarou","Leonidaou","Leontiou","Loukaou","Makariou","Marangou","Marcou","Mariou","Markides","Markou","Masalis","Matsouka","Mavrou","Michaliou","Mihail","Mousikou","Neofytou","Nicodemou","Nicolaou","Nicolau","Nicou","Nikoloau","Olympiou","Pamboridis","Panayi","Panayiotou","Panou","Papaioannou","Papapetrou","Petrides","Philippou","Prodromou","Spyrou","Stavrou","Steliou","Stylianou","Tassou","Theodorou","Valentinou","Vasiliou","Vassiliou","Victoraou","Yiorgou"];
+	var tp = type;
+	var br = "";
+	var element = document.createElement("div");
+	element.setAttribute("id", "result");
+	
+	for(i = 0; i < 10; i++){
+		rnd2 = Math.random() * nm3.length | 0;
+		if(tp === 1){
+			rnd = Math.random() * nm2.length | 0;
+			names = nm2[rnd] + " " + nm3[rnd2];
+			nm2.splice(rnd, 1)
+		}else{
+			rnd = Math.random() * nm1.length | 0;
+			names = nm1[rnd] + " " + nm3[rnd2];
+			nm1.splice(rnd, 1)
+		}
+		nm3.splice(rnd2, 1)
+		br = document.createElement('br');	
+		element.appendChild(document.createTextNode(names));
+		element.appendChild(br);
+	}
+	if(document.getElementById("result")){
+		document.getElementById("placeholder").removeChild(document.getElementById("result"));
+	}		
+	document.getElementById("placeholder").appendChild(element);
+}

@@ -1,0 +1,21 @@
+
+
+function nameGen(){
+	var nm1 = [["Åi","Crown"],["Akasu","Reveal"],["Ame","Rain"],["Arashi","Storm"],["Ari","Ant"],["Ashita","Tomorrow"],["Asobiba","Playground"],["Atsuryoku","Pressure"],["BaizÅ","Double"],["Batsu","Punishment"],["Bochi","Cemetery"],["Boku","Servant"],["Bunkatsu","Division"],["Bunseki","Analysis"],["ByÅkin","Virus"],["ChÅryoku","Tension"],["Chikara","Energy"],["Chikara","Strength"],["Chinsui","Drunk"],["Chishiki","Knowledge"],["DÅjÅ","Sympathy"],["Dairiseki","Marble"],["Damasu","Trick"],["Doku","Poison"],["Doku","Venom"],["Eien","Eternity"],["Fuan","Anxiety"],["Fukumen","Veil"],["FukyÅ«","Timelessness"],["Fumetsu","Immortal"],["FunmyÅ","Clarity"],["Funtai","Powder"],["Furue","Tremble"],["Fushigi","Wonder"],["Gaman","Perseverance"],["Gin","Silver"],["Gisei","Deceit"],["GizÅ","Counterfeit"],["Gun","Army"],["Ha","Blade"],["Hakanai","Transient"],["Hametsu","Ruin"],["Han","Half"],["Hana","Flower"],["Hane","Feather"],["Hansha","Reflection"],["Hari","Needle"],["Hasha","Champion"],["Hebi","Snake"],["HenkÅ","Change"],["Hensen","Transition"],["Hi","Fire"],["Hibana","Spark"],["Hikari","Light"],["Hikari","Shine"],["Himitsu","Secret"],["Hogo","Protection"],["Hone","Bone"],["Hoshi","Star"],["HyÅshi","Rhythm"],["IndÅ","Requiem"],["Itami","Pain"],["JÅki","Steam"],["JÅ«ten","Emphasis"],["Jigen","Dimension"],["Jihi","Mercy"],["Jikan","Time"],["Jiko","Self"],["Jishin","Earthquake"],["JiyÅ«","Freedom"],["KÅgeki","Strike"],["KÅkai","Regret"],["KÅkan","Exchange"],["KÅkishin","Curiosity"],["KÅri","Ice"],["KÅtai","Shift"],["KÅun","Fortune"],["Kaen","Flame"],["Kagami","Mirror"],["Kage","Shadow"],["Kaiketsu","Resolution"],["KajÅ","Coil"],["Kakashi","Scarecrow"],["Kako","Past"],["Kakomu","Surround"],["KakuchÅ","Expansion"],["Kakumei","Revolution"],["Kamen","Mask"],["Kami","Paper"],["Kaminari","Thunder"],["KanÅsei","Potential"],["Kanashimi","Sorrow"],["Kanzei","Duty"],["Kaori","Scent"],["Kazan","Volcano"],["Kengen","Authority"],["Ketsueki","Blood"],["Kidzuki","Awareness"],["Kikai","Opportunity"],["KinÅ","Yesterday"],["Kin","Gold"],["KinkyÅ«","Emergency"],["Kinmu","Service"],["Kinu","Silk"],["Kinzoku","Metal"],["Kiroku","Record"],["Kokoro","Heart"],["Konran","Chaos"],["Kumo","Spider"],["Kurikaeshi","Repetition"],["Kurikaesu","Repeat"],["Kusari","Chain"],["Kyojin","Giant"],["Masayoshi","Justice"],["Mayonaka","Midnight"],["Meijiru","Command"],["Meirei","Control"],["Meiyo","Honor"],["MitÅshi","Perspective"],["MoyÅ","Pattern"],["Musubime","Knot"],["Nagare","Flow"],["Nayami","Trouble"],["Neko","Cat"],["Nintai","Patience"],["Nise","False"],["Nogareru","Escape"],["Nuime","Stitch"],["Odoroki","Surprise"],["Okure","Delay"],["OnkyÅ","Acoustic"],["Osen","Pollution"],["Poketto","Pocket"],["RÅsoku","Candle"],["SÅsaku","Creation"],["SÅseiji","Twin"],["SÅshÅ","Wound"],["Saibankan","Judge"],["Saidai","Maximum"],["Saisho","Beginning"],["SanryÅkyÅ","Prism"],["Sekai","World"],["Sekki","Design"],["Sentaku","Selection"],["ShÅdÅ","Impulse"],["ShÅgeki","Shock"],["ShÅkan","Redemption"],["ShÅnin","Witness"],["ShÅri","Victory"],["ShindÅ","Tremor"],["Shinjitsu","Truth"],["Shitsumei","Blindness"],["Shitsumon","Question"],["Shoji","Possession"],["Sokudo","Speed"],["Sonzai","Existence"],["Suimin","Sleep"],["Sumi","Ink"],["Suriru","Thrill"],["Tanin","Stranger"],["TanjÅ","Birth"],["TeikÅ","Resistance"],["Tetsu","Iron"],["Toge","Thorn"],["Tokei","Clock"],["TsÅ«ro","Passage"],["UndÅ","Motion"],["Wa","Ring"],["Wareme","Split"],["YÅ«gan","Elegance"],["YÅ«ki","Bravery"],["YÅ«ki","Courage"],["Yami","Darkness"],["Yoru","Night"],["Yuki","Snow"],["Yume","Dream"],["Zandaka","Balance"],["Zangyaku","Brutality"],["ZenchÅ","Omen"]];
+	var br = "";
+	var element = document.createElement("div");
+	element.setAttribute("id", "result");
+	
+	for(i = 0; i < 10; i++){
+		rnd = Math.random() * nm1.length | 0;
+		names = nm1[rnd][0] + "gan (" + nm1[rnd][1] + ")";
+		nm1.splice(rnd, 1);
+		br = document.createElement('br');	
+		element.appendChild(document.createTextNode(names));
+		element.appendChild(br);
+	}
+	if(document.getElementById("result")){
+		document.getElementById("placeholder").removeChild(document.getElementById("result"));
+	}		
+	document.getElementById("placeholder").appendChild(element);
+}

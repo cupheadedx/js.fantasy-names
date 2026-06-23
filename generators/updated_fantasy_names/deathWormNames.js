@@ -1,0 +1,21 @@
+var br = "";
+
+function nameGen(){
+	var nm1 = ["Aba","Achi","Achu","Adar","Ada","Adki","Aga","Agsa","Agsal","Agu","Aji","Akhu","Ala","Al","Alchi","Ama","Amba","Ana","Anar","Ara","Arga","Ar","Ari","Arin","Ariun","Ark","Aru","Aruk","Ashi","Asug","Baa","Ba","Baga","Bai","Baihi","Baihin","Ba","Bala","Bal","Bar","Baru","Bashi","Bata","Bat","Batu","Baya","Be","Bede","Beg","Begu","Begug","Bel","Belgu","Ber","Besu","Bi","Bil","Bo","Bodon","Bogar","Bogo","Bora","Bor","Borji","Boro","Borol","Bor","Boshi","Bu","Bucha","Bughu","Bu","Bugi","Bugu","Buki","Bula","Bul","Bulu","Buqa","Bur","Buya","Buyan","Buyi","Ca","Cai","Car","Cha","Chaga","Chagha","Chagu","Chagur","Chakhur","Cha","Chara","Chi","Chidu","Chiduk","Chila","Chile","Chil","Chim","Chin","Chua","Chuace","Chul","Chu","Dai","Daidu","Da","Dala","Dalan","Dar","Dari","Daya","Da","De","Del","Dhu","Din","Do","Dog","Dokho","Dokhol","Dor","Durrai","Duru","Durul","Edi","Egu","El","Elji","Em","Ene","Enk","Er","Erke","Ese","Esen","Esu","Gal","Gan","Ganba","Gantu","Ganzo","Ge","Ghu","Guch","Guchu","Gu","Gun","Gunto","Har","Hobo","Hoo","Hor","Horkhu","Hule","Hus","Hu","Idu","Idugh","Jagha","Jaji","Jamu","Jan","Jar","Jarchi","Je","Jebei","Jeb","Jel","Jen","Ji","Jiran","Jira","Jirgha","Jirgho","Jo","jub","Jun","Jung","Jur","Ka","Kama","Karae","Ke","Kek","Ket","KhÃ¼n","Kha","Khada","Khaga","Khai","Khali","Kha","Khen","Khong","Khor","Khori","Khori","Khu","Khubi","Khu","Khudu","Khu","Kira","Kiri","Kiril","Kishi","Kog","Kogse","Ko","Koko","Kokoon","Kot","Ku","Kun","Kut","Ku","Kuzh","La","Laba","Lig","MÃ¶n","MÃ¶","Mag","Maha","Maqa","Ma","Mas","Mede","Mege","Megu","Men","Mer","Mohn","Mo","Mong","Moro","Mukha","Mung","Mya","Na","Nak","Naran","Nari","Narino","Na","Naya","Nayan","Nek","Neku","Ner","No","Non","Od","Odchi","Oge","Ogo","Okho","Olda","Ol","Olzi","Ong","Or","Orduo","Qobol","Qo","Qori","Sa","San","Sar","Se","Seche","Sege","Segeran","Sen","Sha","Shi","Shira","Siba","Sidu","Sin","Sok","Sor","Sorkha","Su","Suke","Sukh","Suyi","TÃ¶mÃ¶","TÃ¶","TÃ¶mÃ¶r","Tabu","Taga","Tag","Tai","Tama","Tara","Tar","Tarma","Tata","Tebe","Teben","Tegu","Tele","Temu","Ter","Timu","Tobu","Todeo","Todo","Toggon","Tog","Toghai","To","Togho","Tog","Togh","Togtoo","Tokhu","Toku","To","Toqe","Tor","Torbia","Tor","Torga","Tse","Tso","Tsol","Tu","Tudao","Tudaon","Tug","Tugte","Tugto","Tum","Tumbi","Tu","Tun","Tung","Tu","Tuyi","Uchi","Udu","Ui","Uighur","Ukhu","Uki","Ula","Ulag","Ura","Urane","Ur","Urga","Uria","Urian","Xan","Xar","Xor","Ya","Yala","Yar","Yasa","Yeke","Yekie","Yeren","Tesu","Yesuo","Yo","Yokhu","Yuru"];
+	var nm2 = ["ba","baatar","bai","baka","bal","ban","bat","bataar","bayar","bechi","beg","bichi","bilai","binai","bish","boge","bold","buccha","bucha","bul","bun","buqa","cenur","char","chedei","chi","chigin","chir","chu","dagan","dai","dam","dan","dar","degai","deger","dei","dek","der","des","dhur","du","dukha","dung","dus","gachi","gai","gamal","gan","ganira","gar","gatai","gei","ger","get","getei","ghai","ghar","ghirun","ghosun","ghul","gi","gibal","gidai","gidei","gin","gis","gor","goril","grot","gudar","guder","gugur","gulig","gum","gun","gur","guran","hamu","hinua","hoi","jam","ji","jigin","jin","ju","ka","ketu","khai","khali","khan","khatu","kidai","kim","kuder","kul","la","lad","lan","latai","ledu","len","letai","lie","lig","lugh","luku","luun","makhan","mal","mala","me","mon","mor","muge","mun","munaisi","mur","nai","naisi","nasai","nege","nemur","nengri","nira","nur","qadar","qaudan","ragai","ragh","rai","raimur","ral","ran","rel","remur","ren","rergan","ridai","ril","rin","ritai","rolie","run","saga","sai","sakha","san","sar","semur","sen","ser","shi","shin","shirin","si","so","sochi","sukh","sun","taar","taghar","tai","tan","tar","tei","temur","ter","toga","tomor","tu","tulga","tunga","vech","yar","zorig"];
+	var element = document.createElement("div");
+	element.setAttribute("id", "result");
+	
+	for(i = 0; i < 10; i++){
+		rnd = Math.random() * nm1.length | 0;
+		rnd2 = Math.random() * nm2.length | 0;
+		names = nm1[rnd] + nm2[rnd2];
+		br = document.createElement('br');	
+		element.appendChild(document.createTextNode(names));
+		element.appendChild(br);
+	}
+	if(document.getElementById("result")){
+		document.getElementById("placeholder").removeChild(document.getElementById("result"));
+	}		
+	document.getElementById("placeholder").appendChild(element);
+}
