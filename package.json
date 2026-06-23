@@ -1,6 +1,6 @@
 {
 	"name": "fantasy-names",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "A fantasy name generator",
 	"main": "generator.js",
 	"scripts": {
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mattconsto/fantasy-names.git"
+		"url": "git+https://github.com/cupheadedx/js.fantasy-names.git"
 	},
 	"keywords": [
 		"fantasy",
@@ -78,16 +78,15 @@
 		"world",
 		"of",
 		"warcraft",
-		"wow"
+		"wow",
+		"updated",
+		"update"
 	],
-	"author": "Matt Consto and FantasyNameGenerators",
+	"author": "Matt Consto | Cupheaded and FantasyNameGenerators",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/mattconsto/fantasy-names/issues"
-	},
-	"homepage": "https://github.com/mattconsto/fantasy-names#readme",
+	"homepage": "https://github.com/cupheadedx/js.fantasy-names#readme",
 	"devDependencies": {
 		"chai": "^3.5.0",
 		"mocha": "^3.1.2"
-	},
+	}
 }
