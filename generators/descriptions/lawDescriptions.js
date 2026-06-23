@@ -31,9 +31,7 @@ function generator$descriptions$lawDescriptions(){
 	var name8 = "----------------------------";
 	var name9 = "This " + nm1[rnd13] + " law dictates all those found guilty of " + nm2[rnd14] + " will face the punishment of " + nm3[rnd15] + ".";
 	
-	var br = [];
-	for(i = 0; i < 8; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6 + "\n\n" + name7 + "\n\n" + name8 + "\n\n" + name9;
 	return final_result;
 }	

@@ -1,4 +1,4 @@
-﻿/* Cambodia */
+/* Cambodia */
 
 var nm1 = ["Am","Ba","Ban","Bat","Battam","Cheo","Dam","Kam","Khma","Khmao","Khmau","Khu","Ko","Kou","Kra","Mo","Mong","Mou","Nea","Ou","Pha","Phanom","Phno","Po","Poi","Pre","Prea","Pur","Rôm","Ro","Sam","Sen","Si","Sie","Siha","Siso","Sku","Stu","Suo","Sva","Ta","Tbou","Thma","Tu","Tue"];
 
@@ -110,4 +110,5 @@ function generator$towns_and_cities$southEastAsianTowns(type){
 
 		return names;
 
+}
 }

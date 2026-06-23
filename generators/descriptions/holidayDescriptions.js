@@ -50,3 +50,4 @@ function generator$descriptions$holidayDescriptions(){
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 }	
+}

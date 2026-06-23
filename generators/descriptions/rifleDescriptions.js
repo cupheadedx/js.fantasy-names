@@ -226,11 +226,7 @@ function generator$descriptions$rifleDescriptions(){
 
 			
 
-			var br = [];
-
-			for(i = 0; i < 12; i++){
-
-				br[i] = document.createElement('br');	
+				
 
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6 + "\n\n" + name7 + "\n\n" + name8 + "\n\n" + name9 + "\n\n" + name10;
 	return final_result;

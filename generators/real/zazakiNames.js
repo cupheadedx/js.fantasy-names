@@ -1,4 +1,4 @@
-﻿function generator$real$zazakiNames(type){
+function generator$real$zazakiNames(type){
 	i = Math.floor(Math.random() * 10);
 
 

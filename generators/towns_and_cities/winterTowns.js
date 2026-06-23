@@ -1,4 +1,4 @@
-﻿
+
 
 var nm2 = ["aval","bare","bleak","bliz","chill","clear","cloud","cold","cristal","crystal","dark","drift","frost","gliss","ice","moon","north","shiver","sleet","snow","storm","that","thaw","therm","whit","white","wild","wind","winter","wit","wolf","yce"];
 

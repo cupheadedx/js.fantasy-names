@@ -1,4 +1,4 @@
-﻿	
+	
 
 function generator$places$utopianCities(type){
 	i = Math.floor(Math.random() * 10);

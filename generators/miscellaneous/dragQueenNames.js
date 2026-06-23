@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$miscellaneous$dragQueenNames(type){
 	i = Math.floor(Math.random() * 10);

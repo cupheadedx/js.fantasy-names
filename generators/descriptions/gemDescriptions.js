@@ -34,9 +34,7 @@ function generator$descriptions$gemDescriptions(){
 	
 	var name4 = "This " + nm1[rnd9] + " with " + nm2[rnd10] + " cut and the size of a " + nm3[rnd11] + " is in " + nm4[rnd12] + " condition. These gems are " + nm5[rnd13] + ", but they're " + nm6[rnd14] + " gemstone species." 
 	var name5 = "It's said these gems contain " + nm7[rnd15] + " properties which make for a great " + nm8[rnd16] + ".";
-	var br = [];
-	for(i = 0; i < 6; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 }	

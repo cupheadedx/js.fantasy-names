@@ -82,9 +82,7 @@ function generator$descriptions$diseaseDescriptions(){
 	var name13 = "Made worse by: " + nm14[rnd14a] + ". " + nm14[rnd14b] + ". " + nm15[rnd15];
 	var name14 = "Treatment: "  + nm16[rnd16] + ".";
 	var name15 = "Rarity: 1 in " + nm17[rnd17] + " " + nm18[rnd18] + " have " + nm1[rnd1] + "  " + nm2[rnd2] + ".";
-	var br = [];
-	for(i = 0; i < 15; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6 + "\n\n" + name7 + "\n\n" + name8 + "\n\n" + name9 + "\n\n" + name10 + "\n\n" + name11 + "\n\n" + name12 + "\n\n" + name13 + "\n\n" + name14 + "\n\n" + name15;
 	return final_result;
 }	

@@ -27,3 +27,4 @@ function generator$dungeons_and_dragons$dndGenasi(){
 		}
 		return names;
 }
+}

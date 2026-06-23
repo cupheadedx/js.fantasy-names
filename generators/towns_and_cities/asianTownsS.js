@@ -54,3 +54,4 @@ function generator$towns_and_cities$asianTownsS(){
 		}
 		return names;
 }
+}

@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$pop_culture$devilFruits(type){
 	i = Math.floor(Math.random() * 10);

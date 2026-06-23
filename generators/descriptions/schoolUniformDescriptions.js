@@ -67,9 +67,7 @@ function generator$descriptions$schoolUniformDescriptions(){
 	var name5 = "Like the boys the girls wear " + nm8b[rnd8b] + " shirts, which are usually " + nm9[rnd9b] + " their skirts and are covered with a " + nm10[rnd10b] + " jacket. They too wear a tie that " + nm12[rnd12b] + " the middle of their often " + nm13[rnd13b] + " jackets and is " + nm14[rnd14c] + " in the same colors.";
 	
 	var name6 = "All jackets " + nm21[rnd21] + " and, " + nm18[rnd18] + ", many students wear " + nm19[rnd19] + " accessoires, " + nm20[rnd20] + ".";
-	var br = [];
-	for(i = 0; i < 7; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6;
 	return final_result;
 }	

@@ -1,4 +1,4 @@
-﻿
+
 function generator$real$kazakhNames(type){
 	i = Math.floor(Math.random() * 10);
 

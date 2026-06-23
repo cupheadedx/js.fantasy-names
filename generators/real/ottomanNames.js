@@ -1,4 +1,4 @@
-﻿
+
 function generator$real$ottomanNames(type){
 	i = Math.floor(Math.random() * 10);
 

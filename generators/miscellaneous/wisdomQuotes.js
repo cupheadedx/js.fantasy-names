@@ -10,3 +10,4 @@ function generator$miscellaneous$wisdomQuotes(){
 		element.appendChild(document.createTextNode(names));
 		return names;
 }
+}

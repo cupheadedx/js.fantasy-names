@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$real$cornishNames(type){
 	i = Math.floor(Math.random() * 10);

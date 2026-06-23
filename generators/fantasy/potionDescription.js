@@ -182,11 +182,7 @@ function generator$fantasy$potionDescription(){
 
 	var name11 = "Recipe by " + nm19[rnd19] + ".";
 
-	var br = [];
-
-	for(i = 0; i < 13; i++){
-
-		br[i] = document.createElement('br');	
+		
 
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6 + "\n\n" + name7 + "\n\n" + name8 + "\n\n" + name9 + "\n\n" + name10 + "\n\n" + name11;
 	return final_result;

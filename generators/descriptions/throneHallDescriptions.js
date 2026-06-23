@@ -128,9 +128,7 @@ function generator$descriptions$throneHallDescriptions(){
 	var name5 = "The throne is covered in " + nm33[rnd33] + " " + nm34[rnd34] + " and fixed on " + nm35[rnd35] + " is " + nm36[rnd36] + " " + nm37[rnd37] + ". The "  + nm38[rnd38] + " pillows are a " + nm39[rnd39] + " " + nm12b[rnd12] + " and these too have been adorned with " + nm40[rnd40] + " " + nm41[rnd41] + ".";
 
 	var name6 = "Those " + nm42[rnd42] + " their royal highness can do so on the " + nm43[rnd43] + " " + nm44[rnd44] + " " + nm45[rnd45] + " benches, all of which are " + nm46[rnd46] + ". Those of higher standing can instead take seat in the " + nm47[rnd47] + " " + nm48[rnd48] + " " + nm49[rnd49] + ".";
-	var br = [];
-	for(i = 0; i < 8; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6;
 	return final_result;
 }	

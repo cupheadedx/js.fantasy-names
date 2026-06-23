@@ -1,4 +1,4 @@
-﻿/* Burkina Faso */
+/* Burkina Faso */
 
 var nm1 = ["Ari","Aribi","Ba","Banfo","Bo","Boga","Boro","Bou","Dé","Dédou","Da","Dié","Diébou","Dia","Diapa","Dji","Do","Fa","Ga","Gaoua","Gara","Gayé","Go","Goro","Gou","Hou","Ka","Ki","Ko","Koko","Kombi","Kongou","Kou","Koudou","Koupé","Loro","Mé","Ma","Mogte","Nia","Nou","Oro","Oua","Ouaga","Ouahi","Pa","Pi","Pissi","Po","Pou","Pouy","Réo","Sé","Ségué","Sa","Sapo","Se","Si","So","Sole","Ta","Te","Tenko","Ti","Tika","To","Tou","Vi","Ya","Zi","Zinia","Zo"];
 
@@ -110,4 +110,5 @@ function generator$towns_and_cities$westAfricanTowns(type){
 
 		return names;
 
+}
 }

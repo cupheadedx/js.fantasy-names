@@ -1,4 +1,4 @@
-﻿
+
 function generator$animals_and_creatures$quetzalcoatlNames(type){
 	i = Math.floor(Math.random() * 10);
 

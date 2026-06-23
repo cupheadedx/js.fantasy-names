@@ -117,9 +117,7 @@ function generator$descriptions$societyDescription(){
 			var name5 = "The people of " + names2[random2] + " are " + names13[random13] + ". They live " + names14[random14] + " lives" + names15 + " while " + names5[random5d] + names16 + " lacking, their " + names5[random5a] + " helps relief " + names17 + " of their issues.";
 			var name6 = "Religion holds " + names18[random18] + " in their lives and, if anything, has made them more " + names19[random19] + ". The people of " + names2[random2] + " " + names20[random20] + names21 + " and they" + names22 + names23[random23a] + " and " + names23[random23b] + ".";
 
-			var br = [];
-			for(i = 0; i < 7; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6;
 	return final_result;
 		}	

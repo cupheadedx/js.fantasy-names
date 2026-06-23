@@ -1,4 +1,4 @@
-﻿/* Denmark */
+/* Denmark */
 var nm1 = ["Aal","Balle","Birke","Brønd","Es","Haders","Hel","Hol","Kol","Lyng","Nørre","Rød","Ring","Ros","Sønder","Silke","Svend","Tårn","Taa","Vi","Kors","Øster","Vester","Ege","Konge","Ul","Al","Ny","Lys","Avn","Bede","Binde","Bjørn","Blæs","Blå","Bred","Bøge","Dam","Dyb","Due","Drags","El","Engels","Ens","Favr","Flad","Flint","Fri","Fugle","Gammel","Grøn","Guld","Hal","Has","Hjorts","Hund","Hvid","Høj","Karls","Kirke","Knud","Krage","Kær","Lang","Lille","Mejl","Mose","Mølle","Neder","Over","Rand","Rød","Sand","Skjold","Smede","Stor","Strand","Tegl","Ting","Vej","Vind"];
 var nm2 = ["bæk","bjerg","borg","by","havn","holm","hus","kilde","lev","lund","rup","lev","sted","strup","trup","bro","hus","ager","skov","bøl","høj","gård","holt"];
 /* Estonia */
@@ -62,4 +62,5 @@ function generator$towns_and_cities$northEuropeTowns(type){
 			names = nm15[rnd] + nm16[rnd2];
 		}
 		return names;
+}
 }

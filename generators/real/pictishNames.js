@@ -1,4 +1,4 @@
-﻿function generator$real$pictishNames(){
+function generator$real$pictishNames(){
 	i = Math.floor(Math.random() * 10);
 
 

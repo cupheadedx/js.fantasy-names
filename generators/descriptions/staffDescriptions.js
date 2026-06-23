@@ -34,9 +34,7 @@ function generator$descriptions$staffDescriptions(){
 	var name2 = "The bottom ends in " + nm7[rnd7] + " made of " + nm8[rnd8] + " and has been decorated with " + nm9[rnd9] + ".";
 	
 	var name3 = "The top is made out of " + nm2[rnd11] + " " + nm8[rnd12] + " and has been crafted into " + nm10[rnd10] + ", which has been decorated with " + nm9[rnd13] + ".";
-	var br = [];
-	for(i = 0; i < 4; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 }	

@@ -32,9 +32,7 @@ function generator$descriptions$monumentDescriptions(){
 	
 	var name3 = "It was designed by " + nm6[rnd6] + " who " + nm7[rnd7] + " captured the " + nm8[rnd8] + " of the region and used " + nm9[rnd9] + " style to convey " + nm12[rnd12] + " vision in this piece of art.";
 	var name4 = "Every element was crafted and created with " + nm10[rnd10] + " materials from local suppliers, ensuring this monument will " + nm11[rnd11] + ".";
-	var br = [];
-	for(i = 0; i < 5; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4;
 	return final_result;
 }	

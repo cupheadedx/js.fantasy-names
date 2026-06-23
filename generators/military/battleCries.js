@@ -13,3 +13,4 @@ function generator$military$battleCries(){
 		}
 		return names;
 }
+}

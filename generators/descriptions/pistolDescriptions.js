@@ -50,9 +50,7 @@ function generator$descriptions$pistolDescriptions(){
 			var name4 = "This weapon was originally designed as " + nm13[rnd13] +", but it soon " + nm14[rnd14] + " and is now in use by " + nm15[rnd15] + ".";
 			var name5 = "Its official name is the " + nm16[rnd16] + nm17[rnd17] + "-" + nm16[rnd16a] + nm16[rnd16b] + nm17[rnd17a] + ", but it generally goes by its unofficial name: " + nm18[rnd18] + ".";
 			
-			var br = [];
-			for(i = 0; i < 6; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 		}	

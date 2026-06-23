@@ -14,3 +14,4 @@ function generator$miscellaneous$riddles(){
 		br[i] = document.createElement('br');	
 	return names;
 }
+}

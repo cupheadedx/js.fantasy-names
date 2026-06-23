@@ -1,4 +1,4 @@
-﻿function generator$rift$bahmiNames(type){
+function generator$rift$bahmiNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var tp = type;

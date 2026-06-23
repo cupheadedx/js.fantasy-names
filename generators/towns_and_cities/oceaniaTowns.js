@@ -99,3 +99,4 @@ function generator$towns_and_cities$oceaniaTowns(type){
 		return names;
 
 }
+}

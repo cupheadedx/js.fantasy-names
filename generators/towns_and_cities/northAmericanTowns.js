@@ -65,3 +65,4 @@ function generator$towns_and_cities$northAmericanTowns(){
 		return names;
 
 }
+}

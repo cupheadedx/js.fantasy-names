@@ -1,4 +1,4 @@
-﻿function generator$fantasy$worldTreeNames(type){
+function generator$fantasy$worldTreeNames(type){
 	i = Math.floor(Math.random() * 10);
 
 

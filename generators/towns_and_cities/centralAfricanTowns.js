@@ -1,4 +1,4 @@
-﻿/* Angola */
+/* Angola */
 
 var nm1 = ["Am","An","Andu","Bai","Ba","Balo","Ben","Bi","Biba","Bim","Biu","Bun","Ca","Caba","Cabam","Cabin","Cabo","Cacon","Cacu","Cafun","Caha","Caien","Caim","Calan","Calen","Calon","Calu","Cama","Cam","Cambon","Cambun","Camis","Can","Cangam","Cangan","Cangum","Cape","Capen","Cas","Cassan","Casson","Ca","Cata","Cat","Catum","Caun","Caxi","Caza","Cazom","Ce","Chian","Chi","Chiban","Chibem","Chica","Chin","Chipin","Chis","Chitem","Coem","Co","Con","Cou","Couta","Cuan","Cua","Cu","Cui","Cuim","Cuve","Da","Dam","Didi","Di","Don","Dun","Ekun","Fol","Folga","Fun","Ga","Gabe","Gan","Golun","Gu","Huam","Hum","Jam","Kui","Lo","Lobi","Lom","Lon","Longon","Lua","Luaca","Luan","Luban","Luca","Lucus","Lue","Luia","Luim","Lum","Lu","Lumba","Lume","Lure","Luxi","Lan","Malen","Malem","Ma","Malu","Marim","Ma","Mas","Mata","Mavin","Mban","Menon","Mu","Mhcin","Mucon","Mucum","Mucu","Mugin","Mulon","Mun","Mus","Mussen","Na","Nama","Nami","Nega","Nha","No","Nza","On","Ondji","Pin","Que","Qui","Quiba","Quilen","Quima","Quiban","Quiri","Quima","Quim","Quir","Sa","Saco","Samu","Sauri","Sava","Savun","Son","So","Sum","Tchin","Tchi","Tchipe","Techa","Tenta","Tom","Tum","Uku","Via","Wa","Xangon","Xan"];
 
@@ -122,4 +122,5 @@ function generator$towns_and_cities$centralAfricanTowns(type){
 
 		return names;
 
+}
 }

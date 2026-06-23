@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$warhammer$warhammerBretonnians(type){
 	i = Math.floor(Math.random() * 10);

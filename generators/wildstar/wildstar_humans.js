@@ -20,5 +20,4 @@ function generator$wildstar$wildstar_humans(type) {
 		}
 		return name;
 	}
-
 }

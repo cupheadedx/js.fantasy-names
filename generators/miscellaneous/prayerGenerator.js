@@ -49,4 +49,5 @@ function generator$miscellaneous$prayerGenerator(type){
 		var rnd10 = Math.random() * nm20.length | 0;
 		var name = nm1[rnd] + " " + nm2[rnd2] + ", " + nm3[rnd3] + ", " + nm14[rnd4] + ". " + nm15[rnd5] + ", " + nm16[rnd6] + ". " + nm17[rnd7] + ", " + nm18[rnd8] + ". " + nm19[rnd9] + " so I " + nm20[rnd10] + ".";
 	return name;
-}	
+}
+}

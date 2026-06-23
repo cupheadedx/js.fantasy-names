@@ -1,4 +1,4 @@
-﻿function generator$real$luoNames(type){
+function generator$real$luoNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var nm1 = ["Fwaya","Janani","Jaramogi","Kajwang","Mindika","Mindiwo","Oboyo","Obungo","Oburu","Obuto","Obuya","Ocan","Ochieng","Ochola","Odede","Odero","Odhiambo","Odikinyi","Odongo","Odour","Oduor","Odwar","Ogak","Ogot","Oguta","Ogwang","Ohon","Ojwang","Okatch","Okello","Okeyo","Okot","Okoth","Olara","Oliechi","Oluoch","Omollo","Omondi","Omondo","Ondiek","Oneka","Ongweng","Onindo","Onyango","Opiyo","Opudo","Origi","Osogo","Otem","Othiamba","Othiambo","Otich","Otiende","Otieno","Otiya","Ouma","Owino","Owiti","Owuor","Oyella","Raila","Raira","Waga","Wanyanga"];

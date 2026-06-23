@@ -36,9 +36,7 @@ function generator$towns_and_cities$ghostTownDescriptions(){
 			var name4 = nm10[rnd10] + ".";
 			
 			var name5 = nm11[rnd11] + ". But " + nm12[rnd12] + ".";
-			var br = [];
-			for(i = 0; i < 6; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 		}	

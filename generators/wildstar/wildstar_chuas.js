@@ -42,5 +42,4 @@ function generator$wildstar$wildstar_chuas(type) {
 		}
 		return name;
 	}
-
 }

@@ -1,4 +1,4 @@
-﻿/* Greece */
+/* Greece */
 
 var nm1 = ["Acha","Agia","Agio","Agri","Alexa","Ali","Alika","Ama","Ampe","Ampelo","Ana","Araio","Argy","Arte","Aspro","Cha","Chai","Chala","Chio","Cho","Chola","Co","Da","Dimi","Dra","Drape","Ede","Efka","Ega","Ele","Elefthe","Eleu","Elli","Ermou","Ery","Evo","Fa","Fali","Fila","Flo","Ga","Gala","Gera","Gia","Gianni","Gly","Gre","Hera","Ialy","Iera","Iliou","Ira","Ka","Kaisa","Kala","Kalli","Kaly","Kama","Kardi","Kasto","Kate","Kava","Kera","Ki","Kifi","Ko","Komo","Koro","Kory","Koza","La","Lio","Liva","Lou","Ma","Me","Mega","Meli","Mene","Meta","Misso","Mo","Myti","Na","Nafpa","Naou","Nea","Ni","Ore","Pa","Paia","Palli","Pano","Papa","Para","Pe","Pera","Petrou","Poli","Pre","Preve","Psy","Ptole","Py","Rafi","Rethy","Rho","Sa","Sala","Se","Smy","Spa","Sta","Stavrou","Sy","Ta","The","Thessa","Tri","Tyrna","Ve","Vo","Vou","Vrili","VyVyro","Xa","Ymi","Zogra"];
 
@@ -66,4 +66,5 @@ function generator$towns_and_cities$southEuropeanTowns(type){
 
 		return names;
 
+}
 }

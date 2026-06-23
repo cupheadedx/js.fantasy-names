@@ -1,4 +1,4 @@
-﻿
+
 function generator$real$hungarianNames(type){
 	i = Math.floor(Math.random() * 10);
 

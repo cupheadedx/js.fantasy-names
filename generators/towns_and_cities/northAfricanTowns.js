@@ -1,4 +1,4 @@
-﻿/* Algeria */
+/* Algeria */
 
 var nm1 = ["Aïn B","Aïn Be","Aïn Def","Aïn El Had","Aïn El Ham","Aïn El Ke","Aïn Fak","Aïn Oul","Aïn Ous","Aïn Sef","Aïn Sma","Aïn Ta","Aïn Tou","Ad","Af","Ak","Al","An","Anna","Ar","Aza","Azaz","Azza","Bé","Ba","Bara","Bari","Bat","Ber","Birk","Bis","Bli","Bou","Boufa","Bouga","Boui","Boumer","Che","Chel","Cher","Chera","Chle","Col","Di","Didou","Djel","El Aff","El Ar","El At","El Ba","El Baya","El Bou","El Eul","El Go","El Gue","El Guerra","El Ha","El Har","El Ka","El Khrou","El Meg","El Mi","Fi","Fil","Fren","Gha","Ghar","Gra","Gue","Guel","Guera","Had","Ham","Kha","Khe","Khen","Ko","La","Lakh","Lar","Mé","Ma","Magh","Mah","Man","Mas","Me","Meche","Mef","Mes","Mi","Milia","Mos","Mosta","Mou","Ne","Nedro","Nez","Ora","Ouar","Ouen","Reli","Rem","Roui","Sé","Séd","Sidi Kha","Sidi Mou","Sidi Mous","Sidi Ok","Skik","Soug","Té","Ta","Tad","Tadje","Takhe","Tama","Taman","Te","Tebes","Tela","Thé","Tia","Tin","Tis","Tissem","Tlem","Tol","Toug","Zig"];
 

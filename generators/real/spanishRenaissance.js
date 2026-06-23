@@ -1,4 +1,4 @@
-﻿function generator$real$spanishRenaissance(type){
+function generator$real$spanishRenaissance(type){
 	i = Math.floor(Math.random() * 10);
 
 

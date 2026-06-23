@@ -42,9 +42,7 @@ function generator$descriptions$traditionDescriptions(){
 	var name = "In the " + nm1[rnd1] + " of " + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5] + " it is tradition for " + nm6[rnd6][0][rnd6b] + " " + nm9[rnd9] + ". It's supposed to be a symbol of " + nm6[rnd6][1][rnd6c] + " and " + nm6[rnd6][1][rnd6d] + " and it's usually part of a " + nm7[rnd7] + " that can " + nm8[rnd8] + ".";
 	var name2 = "-------------------------"
 	var name3 = "In the " + nm1[rnd10] + " of " + nm2[rnd11] + nm3[rnd12] + nm4[rnd13] + nm5[rnd14] + " it is tradition " + nm10[rnd15][0][rnd15b] + ". It's supposed to " + nm10[rnd15][1][rnd15c] + ".";
-	var br = [];
-	for(i = 0; i < 4; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 }	

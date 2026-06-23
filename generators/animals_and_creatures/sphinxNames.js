@@ -62,3 +62,4 @@ function generator$animals_and_creatures$sphinxNames(type){
 		}
 		return names;
 }
+}

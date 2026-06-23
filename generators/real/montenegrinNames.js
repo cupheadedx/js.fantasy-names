@@ -1,4 +1,4 @@
-﻿function generator$real$montenegrinNames(type){
+function generator$real$montenegrinNames(type){
 	i = Math.floor(Math.random() * 10);
 
 

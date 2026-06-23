@@ -31,5 +31,4 @@ function generator$wildstar$wildstar_mordeshs(type) {
 		}
 		return name;
 	}
-
 }

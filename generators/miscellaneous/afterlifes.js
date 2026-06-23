@@ -50,5 +50,4 @@ function generator$miscellaneous$afterlifes(type) {
 		}
 		return name;
 	}
-
 }

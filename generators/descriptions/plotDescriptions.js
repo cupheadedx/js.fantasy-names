@@ -38,9 +38,7 @@ function generator$descriptions$plotDescriptions(){
 			
 			var name3 = "But what if this " + nm4[rnd4] + " " + nm10[rnd10] + ". Or what if " + nm11[rnd11] + ". How could an ordinary " + nm2[rnd2] + " " + nm12[rnd12] + ". " + nm13[rnd13] + ".";
 			
-			var br = [];
-			for(i = 0; i < 4; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 		}	

@@ -1,4 +1,4 @@
-﻿function generator$real$bashkirNames(type){
+function generator$real$bashkirNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var tp = type;

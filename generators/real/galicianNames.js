@@ -1,4 +1,4 @@
-﻿function generator$real$galicianNames(type){
+function generator$real$galicianNames(type){
 	i = Math.floor(Math.random() * 10);
 
 

@@ -10,3 +10,4 @@ function generator$miscellaneous$idioms(type){
 		nm1.splice(rnd, 1);
 		return names;
 }
+}

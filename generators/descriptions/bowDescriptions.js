@@ -56,9 +56,7 @@ function generator$descriptions$bowDescriptions(){
 	
 	var name5 = "In the hands of " + nm13[rnd13] + " this bow is capable of firing arrows up to " + nm14 + " meters while still retaining lethal power.";
 	
-	var br = [];
-	for(i = 0; i < 7; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6;
 	return final_result;
 }	

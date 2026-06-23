@@ -110,3 +110,4 @@ function generator$miscellaneous$backstories(type){
 		element.appendChild(br2);
 	return names;
 }
+}

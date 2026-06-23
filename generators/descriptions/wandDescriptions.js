@@ -79,9 +79,7 @@ function generator$descriptions$wandDescriptions(){
 						
 			var name3 = "The wand measures " + nm8[rnd8] + " and " + nm9[rnd9] + ". The particular strand of " + nm1[rnd1a] + " used in this wand is " + nm10[rnd10] + ", which " + nm11[rnd11] + nm12a + nm5[rnd5] + " is " + nm10[rnd10a] + nm12b + " resulting in a " + nm12[rnd12] + ".";				
 
-			var br = [];
-			for(i = 0; i < 4; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 		}	

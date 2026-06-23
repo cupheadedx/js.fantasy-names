@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$warhammer$warhammerEmpire(type){
 	i = Math.floor(Math.random() * 10);

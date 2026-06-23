@@ -1,4 +1,4 @@
-﻿function generator$fantasy$shapeshifterNames(type){
+function generator$fantasy$shapeshifterNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var tp = type;

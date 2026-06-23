@@ -1,4 +1,4 @@
-﻿if(typeof testSwear === 'undefined') {
+if(typeof testSwear === 'undefined') {
 	var testSwear = function(a){return a;};
 }
 var nm1 = ["","b","br","d","g","k","m","n","s","y"];

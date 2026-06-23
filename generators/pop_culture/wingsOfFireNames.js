@@ -47,3 +47,4 @@ function generator$pop_culture$wingsOfFireNames(type){
 		}
 		return names;
 }
+}

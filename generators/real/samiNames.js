@@ -1,4 +1,4 @@
-﻿function generator$real$samiNames(type){
+function generator$real$samiNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var tp = type;

@@ -76,5 +76,4 @@ function generator$wildstar$wildstar_cassians(type) {
 		}
 		return name;
 	}
-
 }

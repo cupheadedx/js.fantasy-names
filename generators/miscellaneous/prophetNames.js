@@ -1,4 +1,4 @@
-﻿var nm1 = ["Augur","Bringer","Diviner","Emissary","Envoy","Foreteller","Harbinger","Herald","Magus","Messenger","Oracle","Prophet","Seer"];
+var nm1 = ["Augur","Bringer","Diviner","Emissary","Envoy","Foreteller","Harbinger","Herald","Magus","Messenger","Oracle","Prophet","Seer"];
 var nm4 = ["l'Augur","le Porteur","le Divineur","l'Émissaire","l'Envoyé","le Présage","le Héraut","le Mage","le Messager","l'Oracle","le Prophète","le Voyant"];
 	
 function generator$miscellaneous$prophetNames(type){

@@ -41,9 +41,7 @@ function generator$descriptions$gestureDescriptions(){
 	var name2 = "-----------------------------------";
 	var name3 = "Holding your left hand, with the palm towards " + nm7[rnd16] + nm8[rnd17] + ", " + nm10[rnd21] + " your right hand with the palm towards " + nm7[rnd18] + nm8[rnd19] + " is a gesture that " + nm9[rnd20] + " in the " + nm1[rnd11] + " of " + nm2[rnd12] + nm3[rnd13] + nm4[rnd14] + nm5[rnd15] + ".";
 
-	var br = [];
-	for(i = 0; i < 4; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 }	

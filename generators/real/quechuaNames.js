@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$real$quechuaNames(type){
 	i = Math.floor(Math.random() * 10);

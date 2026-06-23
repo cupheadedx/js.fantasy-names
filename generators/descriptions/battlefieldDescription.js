@@ -260,11 +260,7 @@ function generator$descriptions$battlefieldDescription(){
 
 
 
-			var br = [];
-
-			for(i = 0; i < 7; i++){
-
-				br[i] = document.createElement('br');	
+				
 
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;

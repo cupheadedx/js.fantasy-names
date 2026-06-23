@@ -1,4 +1,4 @@
-﻿function generator$real$zoroastrianismNames(type){
+function generator$real$zoroastrianismNames(type){
 	i = Math.floor(Math.random() * 10);
 
 	var tp = type;

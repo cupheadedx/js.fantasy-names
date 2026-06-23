@@ -107,3 +107,4 @@ function generator$towns_and_cities$centralAmericanTowns(){
 		return names;
 
 }
+}

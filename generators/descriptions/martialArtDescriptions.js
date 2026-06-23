@@ -62,9 +62,7 @@ function generator$descriptions$martialArtDescriptions(){
 	
 	var name3 = "On the other hand the biggest weakness of " + nm1[rnd1] + " is " + nm14[rnd14] + " " + nm15[rnd15] + ".";
 	
-	var br = [];
-	for(i = 0; i < 5; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3;
 	return final_result;
 }	

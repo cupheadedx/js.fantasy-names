@@ -1,4 +1,4 @@
-﻿/* Albania */
+/* Albania */
 
 var nm1 = ["Çeli","Çol","Çoro","Ba","Bala","Ball","Bana","Be","Ber","Bi","Bili","Bli","Bri","Bu","Buda","Bul","Bur","Cër","Ce","Dal","Dall","Del","Dra","Drano","Du","Duri","Dur","Elba","Er","Evre","Evren","Fie","Fu","Gjin","Gji","Gjiro","Gra","Gur","Hi","Hima","Kël","Ka","Kam","Kame","Kava","Klo","Ko","Kok","Koni","Kop","Kor","Kota","Kox","Krra","Kru","Krye","Kry","Ku","Kuço","Ku","Kur","Kut","La","Lag","Le","Les","Lez","Libo","Libra","Li","Lib","Liva","Lla","Lush","Më","Mëxi","Ma","Mamur","Mamu","Mari","Mel","Mema","Me","Mi","Novo","Ok","Ori","Për","Përren","Pa","Pan","Pas","Pa","Peq","Pesh","Pogra","Poli","Po","Pu","Ri","Ros","Rrë","Rrësh","Rrogo","Ru","Sa","Sara","Sele","Se","Seli","Sera","Shëng","Shej","Shi","Shko","Shu","Stoj","Tej","Tepe","Ti","Tira","Ulë","Vër","Vaku","Var","Vlo","Vo","Vuka","Xha","Xhafe","Xhy"];
 
@@ -124,4 +124,5 @@ function generator$towns_and_cities$southEastEuropeanTowns(type){
 
 		return names;
 
+}
 }

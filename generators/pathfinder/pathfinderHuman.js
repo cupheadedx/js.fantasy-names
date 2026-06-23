@@ -417,3 +417,4 @@ function generator$pathfinder$pathfinderHuman(type){
 		return names;
 
 }
+}

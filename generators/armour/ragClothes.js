@@ -65,9 +65,7 @@ function generator$armour$ragClothes(type){
 	
 	var name5 = nm1[w] + " wears a  " + nm14[rnd14] + " around " + nm1[x] + " neck and has it wrapped around " + nm1[x] + " " + nm15[rnd15] + ". It's " + nm16[rnd16] + ".";
 	var name6 = nm1[v] + " head is covered by a " + nm17[rnd17] + ".";
-	var br = [];
-	for(i = 0; i < 8; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5 + "\n\n" + name6;
 	return final_result;
 }	

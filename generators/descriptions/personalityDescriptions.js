@@ -117,9 +117,7 @@ function generator$descriptions$personalityDescriptions(type){
 		var name4 = "Fortunately " + nm25[1] + " " + nm21[rnd12][1] + " " + nm10[rnd10] + ".";
 	}
 	
-	var br = [];
-	for(i = 0; i < 4; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4;
 	return final_result;
 }	

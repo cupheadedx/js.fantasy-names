@@ -78,9 +78,7 @@ function generator$armour$fancyClothes(type){
 		
 		var name4 = "He's wearing pants which " + ns16[rnd16] + " and " + ns17[rnd17] + " shoes. He's wearing " + ns18[rnd18] + " pair of " + ns19[rnd19] + "."; 
 		var name5 = "To top it all off he's wearing " + ns20[rnd20] + " belt, which can be accompanied by " + ns21[rnd21a] + " and " + ns21[rnd21b] + ".";
-		var br = [];
-		for(i = 0; i < 6; i++){
-			br[i] = document.createElement('br');	
+			
 		var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 	}else{
@@ -129,9 +127,7 @@ function generator$armour$fancyClothes(type){
 		var name4 = "Below the waist the dress " + nm11[rnd11] + ". The dress reaches " + nm12[rnd12] + " and is " + nm13[rnd13] + ".";
 		
 		var name5 = "She's wearing " + nm14[rnd14] + ", " + nm15[rnd15] + ". To top it all off she's wearing " + nm16[rnd16] + " and " + nm17[rnd17] + ".";
-		var br = [];
-		for(i = 0; i < 6; i++){
-			br[i] = document.createElement('br');	
+			
 		var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 	}

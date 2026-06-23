@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$places$satelliteNames(type){
 	i = Math.floor(Math.random() * 10);

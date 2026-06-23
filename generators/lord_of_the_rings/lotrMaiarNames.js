@@ -1,4 +1,4 @@
-﻿var nm1 = ["f","l","m","n","ph","s","sh","w","y","z","",""];
+var nm1 = ["f","l","m","n","ph","s","sh","w","y","z","",""];
 var nm2 = ["a","e","o","i","u","ó","é","ie","ui","ia","ea","ae","ua"];
 var nm3 = ["l","lm","ln","ls","n","nn","ph","r","s","sh","ss","th"];
 var nm4 = ["r","n","s","th","l","m"];

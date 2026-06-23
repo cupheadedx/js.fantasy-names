@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$real$ndebeleNames(type){
 	i = Math.floor(Math.random() * 10);

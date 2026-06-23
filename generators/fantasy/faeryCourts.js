@@ -1,4 +1,4 @@
-﻿
+
 
 function generator$fantasy$faeryCourts(type){
 	i = Math.floor(Math.random() * 10);

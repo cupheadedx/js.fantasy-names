@@ -103,9 +103,7 @@ function generator$descriptions$demonDescriptions(){
 	
 	var name5 = wng + nm37[rnd37] + ".";
 	
-	var br = [];
-	for(i = 0; i < 5; i++){
-		br[i] = document.createElement('br');	
+		
 	var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4 + "\n\n" + name5;
 	return final_result;
 }	

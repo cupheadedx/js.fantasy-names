@@ -1,4 +1,4 @@
-﻿if(typeof testSwear === 'undefined') {
+if(typeof testSwear === 'undefined') {
 	var testSwear = function(a){return a;};
 }
 /* Calashite */
@@ -397,4 +397,5 @@ function nameMas(){
 		}
 	}
 	testSwear(nMs);
+}
 }

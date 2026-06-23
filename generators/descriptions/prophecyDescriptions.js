@@ -28,3 +28,4 @@ function generator$descriptions$prophecyDescriptions(){
 		}
 		return names;
 }
+}

@@ -109,3 +109,4 @@ function generator$towns_and_cities$centralEastAfricanTowns(type){
 		return names;
 
 }
+}

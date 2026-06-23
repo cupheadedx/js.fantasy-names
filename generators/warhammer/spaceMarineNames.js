@@ -42,3 +42,4 @@ function generator$warhammer$spaceMarineNames(){
 		}
 		return names;
 }
+}

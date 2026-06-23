@@ -1,4 +1,4 @@
-﻿function generator$real$modernIrishNames(type){
+function generator$real$modernIrishNames(type){
 	i = Math.floor(Math.random() * 10);
 
 

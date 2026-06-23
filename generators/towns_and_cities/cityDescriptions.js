@@ -1,4 +1,4 @@
-﻿function generator$towns_and_cities$cityDescriptions(){
+function generator$towns_and_cities$cityDescriptions(){
 	i = Math.floor(Math.random() * 10);
 
 			var nm1 = ["along the banks of a mighty river","along the banks of modest rivers","along the banks of a gentle river","along the banks of a crystal clear river","along the banks of a labyrinth of rivers","atop the crowns of majestic hills","atop gentle hills","atop emerald hills of grass","atop quiet and serene hills","atop robust hills","at the base of a mighty mountain","in the shadow of an enormous mountain","on the sunny side of a gentle mountain","at the base of a rugged mountain","at the base of a modest mountain","in the center of a giant forest","in a large glade of a mighty forest","at the edge of a lush forest","at the edge of a dense, tall forest","among the towering trees of a huge forest","atop a breathtaking fjord","atop a towering fjord","atop the rugged walls of a fjord","atop the steep facade of a mighty fjord","atop the rocky heights of a fjord","amidst the green grasses of a gentle field","amidst the windy fields of gentle grasslands","amidst the swaying grasses of a windy meadow","amidst the dry grasses of a simple savanna","amidst the lush grasses of an evergreen pasture","amidst the ivory fields of snow","amidst the gentle snows of a pristine tundra","amidst the crisp snows of a silver taiga","amidst the frozen lands of a bitter expanse","amidst the bleak fields of snow","at the edge of a mighty swamp","in the center of an expansive swamp","at the borders of a murky swamp","amidst the murky waters of an enormous swamp","around the mushy waters of a traitorous swamp","at the base of a mighty volcano","in the shadow of a dormant volcano","at the base of a traitorous volcano","in the shadow of a rugged volcano","at the base of a potentially active volcano","on the banks of a large natural harbor","on the banks of a carefully crafted harbor","on the banks of a modest natural harbor","on the banks of a man-made harbor","on the banks of a delicate natural harbor","amidst the flora of a mighty jungle","at the edge of a lush jungle","at the center of a dangerous jungle","at the border of a traitorous jungle","at the center of a gorgeous jungle","at the center of a delicate island","amidst a large, rugged island","on a simple island","at the edge of an enormous island","at the center of a relatively small island","at the edge of a desert","amidst the sands of a mighty desert","around an oasis in the middle of a desert","in the middle of a scorching desert","in a seemingly endless desert"];
@@ -95,9 +95,7 @@
 			var name4 = "It's this multicultural identity that has truly left its mark. Hundreds of " + nm17[rnd17] + ", " + nm17[rnd17b] + " and " + nm17[rnd17c] + " offer a plethora of culinary choices and those who feel hungry for something else can enjoy " + nm18[rnd18] + ", " + nm18[rnd18b] + ", " + nm18[rnd18c] + " or one of the many other recreational venues.";
 			
 			
-			var br = [];
-			for(i = 0; i < 5; i++){
-				br[i] = document.createElement('br');	
+				
 			var final_result = name + "\n\n" + name2 + "\n\n" + name3 + "\n\n" + name4;
 	return final_result;
 		}	
